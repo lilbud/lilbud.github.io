@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>{{ page.title }}</title>
 
-        <link rel="stylesheet" type="text/css" href="/css/main.css" />
-    </head>
+<head>
+    <title>{{ page.title }}</title>
 
-    <body>
-        <nav>
-            <ul>
-                <h2>
-                    <li><a href="/">Brian's Projects</a></li>
-                </h2>
-            </ul>
-            <ul>
-                <li><a href="/about">1</a></li>
-                <li><a href="/about">2</a></li>
-                <li><a href="/about">3</a></li>
-                <li><a href="/about">4</a></li>
-            </ul>
-        </nav>
-        <div class="container">
-            {{ content }}
-        </div>
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+</head>
 
-        <footer>
-            <ul>
-                <li><a href="https://github.com/lilbud">github.com/lilbud</a></li>
-            </ul>
-        </footer>
-    </body>
+<body>
+    <nav>
+        <h2>
+            <li><a href="/">Brian's Projects</a></li>
+        </h2>
+        <ul>
+
+            <div class="dropdown">
+                <button class="dropbtn">Graphic Design</button>
+                <div class="dropdown-content">
+                    <a href="#">Retropie Themes and Splashscreens</a>
+                    <a href="#">Projects</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Music</button>
+                <div class="dropdown-content">
+                    <a href="#">Compilations</a>
+                    <a href="#">Bootleg Covers</a>
+                    <a href="#">Springsteen Archive Covers</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Gaming Related Projects</button>
+                <div class="dropdown-content">
+                    <a href="#">Retropie</a>
+                    <a href="#">UNO Monopoly</a>
+                    <a href="#">HITMAN Projects</a>
+                </div>
+            </div>
+        </ul>
+
+    </nav>
+    <div class="container">
+        {{ content }}
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="https://github.com/lilbud">github.com/lilbud</a></li>
+        </ul>
+    </footer>
+</body>
+
 </html>
