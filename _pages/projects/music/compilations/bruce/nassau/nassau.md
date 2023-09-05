@@ -5,11 +5,10 @@ title: "And the Leaves Came Tumbling Down"
 tagline: "Another stand focused one, this time the NYE run at Nassau Coliseum in Dec. 1980 (Released December 2020)"
 author_profile: false
 header:
-  #overlay_image: /assets/img/music/compilations/features/bruce/nassau.jpg
-  video:
-    id: 9d1iyPWf99U
-    provider: youtube
+  overlay_image: /assets/img/music/compilations/features/bruce/nassau.jpg
 ---
+
+{% include video id="9d1iyPWf99U" provider="youtube" %}
 
 Note: the video should appear above, if not, click [here](https://www.youtube.com/watch?v=9d1iyPWf99U)
 

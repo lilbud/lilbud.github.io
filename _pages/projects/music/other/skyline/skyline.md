@@ -5,14 +5,10 @@ title: "Skyline Pigeon Restoration"
 tagline: "Restoration of the Skyline Pigeon video from Ryan White's funeral"
 author_profile: false
 header:
-  #overlay_image: /assets/img/music/other/skyline/skyline-feature.jpg
-#   actions:
-#     - label: "Watch on Youtube"
-#       url: "https://www.youtube.com/watch?v=xYN2-H6uK_0"
-  video:
-    id: xYN2-H6uK_0
-    provider: youtube
+  overlay_image: /assets/img/music/other/skyline/skyline-feature.jpg
 ---
+
+{% include video id="xYN2-H6uK_0" provider="youtube" %}
 
 Note: the video should appear above, if not, click [here](https://www.youtube.com/watch?v=xYN2-H6uK_0)
 

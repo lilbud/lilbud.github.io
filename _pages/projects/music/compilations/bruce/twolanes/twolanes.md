@@ -5,11 +5,10 @@ title: "Two Lanes, Two Hearts"
 tagline: "My first compilation, various tracks from 1973 to 2013"
 author_profile: false
 header:
-  #overlay_image: /assets/img/music/compilations/features/bruce/twolanes.jpg
-  video:
-    id: QoxaBjVC2wQ
-    provider: youtube
+  overlay_image: /assets/img/music/compilations/features/bruce/twolanes.jpg
 ---
+
+{% include video id="QoxaBjVC2wQ" provider="youtube" %}
 
 Note: the video should appear above, if not, click [here](https://www.youtube.com/watch?v=QoxaBjVC2wQ)
 

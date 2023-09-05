@@ -5,11 +5,10 @@ title: "Big Man Joined the Dead (October 2022)"
 tagline: "When the Change Was Made Uptown"
 author_profile: false
 header:
-  #overlay_image: /assets/img/music/compilations/features/dead/bigman.jpg
-  video:
-    id: u3hDI4_dDyk
-    provider: youtube
+  overlay_image: /assets/img/music/compilations/features/dead/bigman.jpg
 ---
+
+{% include video id="u3hDI4_dDyk" provider="youtube" %}
 
 Note: the video should appear above, if not, click [here](https://www.youtube.com/watch?v=u3hDI4_dDyk)
 

@@ -5,11 +5,10 @@ title: "The Boss Comes Home"
 tagline: "Focusing on the 3 night run at the Capitol Theater in Sept. 1978 (Released June 2022)"
 author_profile: false
 header:
-  #overlay_image: /assets/img/music/compilations/features/bruce/passaic.jpg
-  video:
-    id: 0KcWrALE3VE
-    provider: youtube
+  overlay_image: /assets/img/music/compilations/features/bruce/passaic.jpg
 ---
+
+{% include video id="0KcWrALE3VE" provider="youtube" %}
 
 Note: the video should appear above, if not, click [here](https://www.youtube.com/watch?v=0KcWrALE3VE)
 
