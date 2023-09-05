@@ -5,11 +5,10 @@ title: "Nights at the Boston Music Hall"
 tagline: "A compilation of the 4 night stand at the Boston Music Hall in March of 1977 (Released April 2020)"
 author_profile: false
 header:
-  #overlay_image: /assets/img/music/compilations/features/bruce/boston.jpg
-  video:
-    id: U72AX84M59E
-    provider: youtube
+  overlay_image: /assets/img/music/compilations/features/bruce/boston.jpg
 ---
+
+{% include video id="U72AX84M59E" provider="youtube" %}
 
 Note: the video should appear above, if not, click [here](https://www.youtube.com/watch?v=U72AX84M59E)
 

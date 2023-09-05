@@ -5,15 +5,10 @@ title: "Doubletake Magazine Benefit 2003"
 tagline: "An IEM/AUD mix of Bruce's 2003 benefit for Doubletake Magazine"
 author_profile: false
 header:
-  #overlay_image: /assets/img/music/mtx/somerville-feature.jpg
-#   actions:
-#     - label: "Watch on Youtube"
-#       url: "https://www.youtube.com/watch?v=T8iyCKA8nJA"
-  video:
-    id: T8iyCKA8nJA
-    provider: youtube
+  overlay_image: /assets/img/music/mtx/somerville-feature.jpg
 ---
 
+{% include video id="T8iyCKA8nJA" provider="youtube" %}
 Note: the video should appear above, if not, click [here](https://www.youtube.com/watch?v=xYN2-H6uK_0)
 
 # UPDATE (May 2023):  
