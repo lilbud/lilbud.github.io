@@ -1,0 +1,56 @@
+---
+title:  "Welcome"
+categories: welcome newsite
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
+toc_sticky: true
+---
+
+Welcome back to (hopefully) my final attempt at making a site. Having gone from Wordpress (its still live somehow), to Google Sites, to my first attempt at Github Pages, to this. Everytime I either lost interest (a grand total of one (1) blog post on WP), or it became too difficult to work with the site anymore and I wanted something easier (both Google Sites and Github Pages).
+
+This site will replace that old site as of September 4th, 2023. The original repo will still exist as an archive, but all links will now point here.
+
+#### Why so many sites?
+
+Usually it comes down to my needs outgrowing what a platform is capable of, aside from Wordpress as I really never used it and actually forgot about it until recently. At the time I didn't have much that I was doing worth posting about. I had some stuff I did for RetroPie, but it didn't need explaination. But, I didn't have any major projects at the time.
+
+#### Google Sites
+My first real attempt was a Google Sites page. This was after I started making [covers for bootlegs/concert tapes](/projects/graphics/bootleg-covers). So, I needed some place to post them outside of the various forums where I usually posted them. Needed a centralized place to post them. The Google Site was very simple, and worked for a while. But eventually I moved on, mainly because adding new covers meant editing the page and pasting new images in as I made them, with no way to automate it aside from hosting them elsewhere and posting album links. Which worked but not well.
+
+#### Flickr
+At some point, I created a Flickr account for hosting the covers I made, which allowed for easier uploading, plus minimal work was needed on my part to update stuff, as Flickr took care of sorting and organizing the images. But, I still had to manually upload them, which I fell behind on and figuring out what to upload when updating was a pain (and my organization has never been the best but thats beside the point).
+
+#### First Github Repo
+Next I moved on to a Github repo to store my covers. Still no site, just the repo. But, I could easily update it with a simple command, plus it was able to keep track of changes when updating. So, from "having to manually upload and place images" to "having to manually upload" to "semi-automatic uploads". At the least I now had all my stuff in one place. But, nowhere to actually show it off. That came next. (*SEGUE*)
+
+#### First Github Pages Site (v1.0)
+Having already had my covers in a repo, the next logical step was to have my site on Github. Best to keep things in one place (or an attempt at the least). I looked through the available Jekyll (the base for Github Pages) templates, but nothing really looked good. Eventually I found [Photorama](https://github.com/sunbliss/photorama), which looked good, and also had support for an image gallery, which would bring over what I liked from Flickr (images displayed as a grid). I built my first version of the site some time in late 2021 or so, but it didn't go live until some time in 2022 (per Github commit history). I might've had a Github Pages site before that but I'm not sure.
+
+This site worked for a good while, but eventually it got to be too much (currently nearly 1GB in file size, which is ridiculous). At one point, new updates would take nearly 10min to finish and publish. I eventually got this down to around 3-5min, which is fine. Eventually the site just got to be "too much site". I need something simple to post my stuff to, easy to update, and easy to add new stuff. I didn't need anything advanced like slideshows or searching, or even fancy animations really. My needs are quite simple with a site:
+
+- look half decent
+- support both desktop and mobile
+- small size and easily updatable.
+
+#### Second Github Pages Site (v2.0)
+This led me to look for a new template to use. Originally, I planned on coding it from scratch, as I had a bit more web design knowledge by this point. Not much, but I thought (foolishly as it turns out) at the time that I could do it. This was around April or May of this year (2023), with an end goal of the Fall semester in September. I vastly overestimated my knowledge of web design, I have a good grasp on HTML (backend), but very little on CSS (frontend). I started an attempt, but it didn't look all that good. I decided to just go for a new Jekyll site theme and build from scratch. I settled on [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/). Which was very lightweight, and no frills. It has just enough for my purposes, while also acting as a good jumping off point. I wanted to have a single site to host all of my work that I've done over the years, something I couldn't quite accomplish with my first GH site. I also wanted to utilize the blog more, as I have thoughts I wish to elaborate on (and yes that is a threat).
+
+I had more stuff to add to the site than I thought at first. As I wanted this to be "comprehensive", this meant digging back through roughly 7yrs of content. As I started posting stuff online in 2016 when I got involved with the RetroPie project, up through today in 2023 working on programming projects.
+
+Pretty much, I wanted as much of my stuff to be on this site as possible. From my earliest graphic design work with RetroPie, to my newer projects like compilations and programming projects.
+
+In order to just "get the site online", I opted to set-up all the pages with the basic amount of info. Added all my covers and graphics projects to their sites and whatnot. My first site had the bootleg covers and RetroPie stuff, but not much else. I planned on getting that stuff on for a while, but never got around to it, plus the first site template was quite complex, needing a good bit of work to add new pages and making sure the links worked.
+
+Before even starting on the new site, I wrote down all the sections I wanted and all the pages I'd have to set up. Plus, I made sure to create common templates for stuff I'd reuse (like the pages for Artists and Bootleg Covers), because those can be automated with variables and templates. Requiring minimal work to add new artists/years/pages.
+
+I managed to get everything online like I wanted. Overtime I'll try and write up some blog posts on projects that might need more explanation/background info. Plus I have some plans for things I want to write and post someday.
+
+Incomplete list includes:
+
+- Things that can be done with the Databruce database, like using the data to figure out things like "times Atlantic City was played in AC" or "shows with Jake vs Clarence", etc.
+- Various ramblings from many Discord servers/forums
+- Guides on how to do stuff, like using different software, or guides on different things in Photoshop/Illustrator/etc.
+
+#### Fin
+I've run out of things to type, so its a good place to call it I guess. Here's hoping this site last longer than like 6 months.

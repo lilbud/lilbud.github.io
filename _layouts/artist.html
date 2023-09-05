@@ -1,0 +1,24 @@
+---
+layout: splash
+author_profile: false
+classes: wide
+---
+
+{% assign layout = "third" %}
+
+{% for image in page.images %}
+    {% assign i = i | plus:1 %}
+{% endfor %}
+
+{% if i == 2 %}
+    {% assign layout = "half" %}
+{% endif %}
+
+<figure class="{{ layout }}">
+    {% for image in page.images %}
+        <a href='{{ page.permalink }}/{{ image.folder }}'>
+            <figcaption><h1>{{ image.folder }}</h1></figcaption>
+            <img src='{{ page.feature-path }}/{{ image.folder }}.jpg'>
+        </a>
+    {% endfor %}
+</figure>
