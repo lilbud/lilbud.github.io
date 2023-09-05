@@ -5,7 +5,7 @@ title: "And the Leaves Came Tumbling Down"
 tagline: "Largely Fall 1984, with some tracks from October 1980 (Released November 2020)"
 author_profile: false
 header:
-  overlay_image: /assets/img/music/compilations/features/bruce/leaves.jpg
+  #overlay_image: /assets/img/music/compilations/features/bruce/leaves.jpg
   video:
     id: JM2e3TEiW0s
     provider: youtube

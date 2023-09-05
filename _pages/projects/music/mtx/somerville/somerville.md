@@ -5,7 +5,7 @@ title: "Doubletake Magazine Benefit 2003"
 tagline: "An IEM/AUD mix of Bruce's 2003 benefit for Doubletake Magazine"
 author_profile: false
 header:
-  overlay_image: /assets/img/music/mtx/somerville-feature.jpg
+  #overlay_image: /assets/img/music/mtx/somerville-feature.jpg
 #   actions:
 #     - label: "Watch on Youtube"
 #       url: "https://www.youtube.com/watch?v=T8iyCKA8nJA"

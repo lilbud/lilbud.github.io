@@ -5,7 +5,7 @@ title: "And the Band Played: 1973/74"
 tagline: "A compilation of Bruce Springsteen shows from 1973 and 1974 (Released March 2023)"
 author_profile: false
 header:
-  overlay_image: /assets/img/music/compilations/features/bruce/bandplayed.jpg
+  #overlay_image: /assets/img/music/compilations/features/bruce/bandplayed.jpg
   video:
     id: 10OGM2Y3xZg
     provider: youtube
