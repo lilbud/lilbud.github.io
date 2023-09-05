@@ -19,7 +19,7 @@ Click the button above to view the project on Github. Below is some background i
 
 Note: at some point, I'm going to write up some blog posts on different things that can be done with the data, I'll put a link here when I have those done.
 
-## Intro:
+### Intro:
 
 This repository is for the "Databruce" project. The name is from combining "Database" and "Bruce" (clever I know). This project originally started as an extension of my [Brucebase Scraper](https://github.com/lilbud/brucebase-scraper) project, as well as my ongoing [BruceBot](https://github.com/lilbud/brucebot) project (a discord bot that gets information from Brucebase, a website containing information about Bruce Springsteens performing/recording career).
 

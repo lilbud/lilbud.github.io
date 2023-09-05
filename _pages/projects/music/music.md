@@ -17,7 +17,7 @@ feature_row:
   - image_path: /assets/img/music/matrix-feature.jpg
     title: "Matrix Mixes"
     excerpt: "Projects that combine an Audience and Soundboard source"
-    url: "/projects/music/MTX"
+    url: "/projects/music/mtx"
     btn_class: "btn--primary"
     btn_label: "Enter"
   - image_path: /assets/img/graphics/other/other-feature.jpg
