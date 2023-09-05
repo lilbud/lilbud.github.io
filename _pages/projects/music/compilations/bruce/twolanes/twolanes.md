@@ -6,6 +6,9 @@ tagline: "My first compilation, various tracks from 1973 to 2013"
 author_profile: false
 header:
   overlay_image: /assets/img/music/compilations/features/bruce/twolanes.jpg
+  video:
+    id: QoxaBjVC2wQ
+    provider: youtube
 ---
 
 {% include video id="QoxaBjVC2wQ" provider="youtube" %}
