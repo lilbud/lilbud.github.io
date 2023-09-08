@@ -8,5 +8,6 @@ excerpt: "Covers for David Bowie Bootlegs"
 header:
   overlay_image: /assets/img/graphics/bootleg-covers/artist-img/bowie.jpg
 images:
+ - folder: 1983
  - folder: 1990
 ---
