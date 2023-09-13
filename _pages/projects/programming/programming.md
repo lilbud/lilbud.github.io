@@ -20,6 +20,12 @@ projects:
     url: "/projects/programming/databruce"
     btn_class: "btn--primary"
     btn_label: "Enter"
+  - image_path: /assets/img/programming/ctift-feature.png
+    title: "CTIFT"
+    excerpt: "Concert Tape Info File Trimmer"
+    url: "/projects/programming/ctift"
+    btn_class: "btn--primary"
+    btn_label: "Enter"
 # other:
 #   - image_path: /assets/img/feature/other-feature.jpg
 #     title: "Other"
