@@ -32,10 +32,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: pull subtree changes
-      - run: |
+        run: |
           git fetch bootleg-covers main
           git subtree pull --prefix assets/img/graphics/bootleg-covers/covers bootleg-covers main --squash -m "add covers"
-  
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Ruby
