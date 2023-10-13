@@ -31,10 +31,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: pull subtree changes
-        run: |
-          git fetch https://github.com/lilbud/Bootleg_Covers.git main
-          git subtree pull --prefix assets/img/graphics/bootleg-covers/covers https://github.com/lilbud/Bootleg_Covers.git main --squash -m "add covers"
+      - name: fetch subtree
+        run: git fetch https://github.com/lilbud/Bootleg_Covers.git
+
+      - name: pull subtree
+        run: git subtree pull --prefix assets/img/graphics/bootleg-covers/covers https://github.com/lilbud/Bootleg_Covers.git main --squash -m "add covers"
+      
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Ruby
