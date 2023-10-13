@@ -33,8 +33,8 @@ jobs:
     steps:
       - name: pull subtree changes
         run: |
-          git fetch bootleg-covers main
-          git subtree pull --prefix assets/img/graphics/bootleg-covers/covers bootleg-covers main --squash -m "add covers"
+          git fetch https://github.com/lilbud/Bootleg_Covers.git main
+          git subtree pull --prefix assets/img/graphics/bootleg-covers/covers https://github.com/lilbud/Bootleg_Covers.git main --squash -m "add covers"
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Ruby
