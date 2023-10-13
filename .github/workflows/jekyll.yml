@@ -37,7 +37,7 @@ jobs:
       - name: fetch and pull subtree
         run: |
           git fetch https://github.com/lilbud/Bootleg_Covers.git
-          git merge -s subtree -Xsubtree="bootleg-covers" subremote/main --allow-unrelated-histories
+          git merge -s subtree -Xsubtree="bootleg-covers" subremote/branch --allow-unrelated-histories
           
       - name: Setup Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
