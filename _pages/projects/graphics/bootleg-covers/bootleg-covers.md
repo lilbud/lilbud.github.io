@@ -21,6 +21,8 @@ images:
    name: "Queen"
  - folder: stones
    name: "The Rolling Stones"
+ - folder: billyjoel
+   name: "Billy Joel"
 ---
 
 <figure class="third">
