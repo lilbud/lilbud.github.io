@@ -18,4 +18,4 @@ There are 6 total 'volumes', each around a theme of sorts. This allowed me to go
 
 # Tracklist
 
-In the interest of not making this page super long, I put the tracklist into a Google Doc, viewable [here](https://docs.google.com/document/d/1zKo2jIagYcMj76_HWoZMAak6zMs_xlkvZaSWRQIOipE/edit?usp=sharing)
+In the interest of not making this page super long, I put the tracklist into a Google Doc, viewable [here](https://docs.google.com/document/d/1Oj52bqWPfkVWHd2OlQwWMH0dy-n1ZSdXw3hhNR-_dK8/edit?usp=sharing)
