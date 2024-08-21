@@ -40,4 +40,5 @@ images:
  - folder: 2016
  - folder: 2017
  - folder: 2023
+ - folder: 2024
 ---
