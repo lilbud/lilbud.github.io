@@ -46,7 +46,7 @@ jobs:
           git subtree pull --prefix assets/img/graphics/bootleg-covers/covers https://github.com/lilbud/Bootleg_Covers.git HEAD --squash
           
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854
         with:
           ruby-version: '3.3' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
