@@ -23,6 +23,8 @@ images:
    name: "The Rolling Stones"
  - folder: billyjoel
    name: "Billy Joel"
+ - folder: other
+   name: "Other"
 ---
 
 <figure class="third">
