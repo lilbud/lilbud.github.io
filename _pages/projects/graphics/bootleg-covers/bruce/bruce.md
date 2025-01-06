@@ -21,6 +21,7 @@ images:
  - folder: 1985
  - folder: 1986
  - folder: 1988
+ - folder: 1992
  - folder: 1993
  - folder: 1995
  - folder: 1996
