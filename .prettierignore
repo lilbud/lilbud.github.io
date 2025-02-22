@@ -1,0 +1,6 @@
+
+# Ignore all HTML files:
+**/*.yml
+**/*.html
+**/*.scss
+**/*.md
