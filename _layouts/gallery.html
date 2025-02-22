@@ -6,10 +6,10 @@ classes: wide
 
 <figure class="third">
     {% for image in site.static_files %}
-        {% if image.path contains page.dirname %}
-            <a href='{{ image.path }}' title="{{ image.basename }}">
-                <img src='{{ image.path }}'>
-            </a>
-        {% endif %}
+    {% if image.path contains page.dirname %}
+    <a href='{{ image.path }}' title="{{ image.basename }}">
+        <img src='{{ image.path }}'>
+    </a>
+    {% endif %}
     {% endfor %}
 </figure>

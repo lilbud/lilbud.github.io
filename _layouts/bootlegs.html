@@ -6,19 +6,16 @@ classes: wide
 
 {% assign dirname = page.artist | append: "/covers/" | append: page.year %}
 {% assign layout = "third" %}
-
-<a href="https://download-directory.github.io?url=https://github.com/lilbud/Bootleg_Covers/tree/main/{{ page.artist }}/covers/{{ page.year }}" class="btn btn--primary">Download Covers</a>
-
+<a href="https://download-directory.github.io?url=https://github.com/lilbud/Bootleg_Covers/tree/main/{{ page.artist }}/covers/{{ page.year }}"
+   class="btn btn--primary">Download Covers</a>
 {% for image in site.static_files | where: "image", true %}
     {% if image.path contains dirname %}
         {% assign i = i | plus:1 %}
     {% endif %}
 {% endfor %}
-
 {% if i == 2 %}
     {% assign layout = "half" %}
 {% endif %}
-
 <figure class="{{ layout }}">
     {% for image in site.static_files | where: "image", true %}
         {% if image.path contains dirname %}
