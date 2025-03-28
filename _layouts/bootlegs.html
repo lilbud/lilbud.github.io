@@ -8,20 +8,17 @@ classes: wide
 {% assign layout = "third" %}
 <a href="https://download-directory.github.io?url=https://github.com/lilbud/Bootleg_Covers/tree/main/{{ page.artist }}/covers/{{ page.year }}"
    class="btn btn--primary">Download Covers</a>
-{% for image in site.static_files | where: "image", true %}
-    {% if image.path contains dirname %}
-        {% assign i = i | plus:1 %}
-    {% endif %}
+{% assign images = site.static_files | where_exp: "image", "image.path contains dirname" %}
+{% for image in images %}
+    {% assign i = i | plus:1 %}
 {% endfor %}
 {% if i == 2 %}
     {% assign layout = "half" %}
 {% endif %}
 <figure class="{{ layout }}">
-    {% for image in site.static_files | where: "image", true %}
-        {% if image.path contains dirname %}
-            <a href='{{ image.path }}' title="{{ image.basename }}">
-                <img src='{{ image.path }}'>
-            </a>
-        {% endif %}
+    {% for image in images %}
+        <a href="{{ image.path }}" title="{{ image.basename }}">
+            <img height="300" width="300" alt="cover" src="{{ image.path }}">
+        </a>
     {% endfor %}
 </figure>

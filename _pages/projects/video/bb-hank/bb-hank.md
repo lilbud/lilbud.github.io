@@ -42,7 +42,7 @@ I edited the show down to basically 6 parts, each the length of an average BrBa 
 </details>
 <br>
 <details>
-<summary>Not the Man I Thought I Was</summary>
+<summary>Part 3: Not the Man I Thought I Was</summary>
   Hank staking out Jesse's place, discovering the RV and almost busting Walt. If not for a fake call warning him of his wife being in the hospital (set up by Walt and Saul). Hank assaults Jesse, it put on leave for his actions (despite those around him subtly nodding to him not having to). Cartel shootout, leaving Hank and one of the twins wounded. Ends with Hank in the hospital, surviving the attack while the other twin dies.
 </details>
 <br>

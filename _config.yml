@@ -307,3 +307,7 @@ defaults:
         overlay_color: "#000"
         overlay_filter: "0.5"
         overlay_image: /assets/img/header/homepage.jpg
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
