@@ -44,14 +44,6 @@ jobs:
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git subtree pull --prefix assets/img/graphics/bootleg-covers/covers https://github.com/lilbud/Bootleg_Covers.git HEAD --squash
-          
-      - name: Commit and push
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add .
-          git commit -am "added new covers" || echo "No changes to commit"
-          git push origin main
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
