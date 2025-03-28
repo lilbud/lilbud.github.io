@@ -5,10 +5,7 @@ classes: wide
 ---
 
 {% assign layout = "third" %}
-{% for image in page.images %}
-    {% assign i = i | plus:1 %}
-{% endfor %}
-{% if i == 2 %}
+{% if page.images.size == 2 %}
     {% assign layout = "half" %}
 {% endif %}
 <figure class="{{ layout }}">

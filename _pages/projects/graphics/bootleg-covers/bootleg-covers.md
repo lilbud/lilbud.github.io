@@ -9,6 +9,8 @@ header:
 images:
  - folder: bowie
    name: "David Bowie"
+ - folder: bruce
+   name: "Bruce Springsteen"
  - folder: gd
    name: "Grateful Dead"
  - folder: goose
@@ -17,8 +19,8 @@ images:
    name: "Dead & Company"
  - folder: mccartney
    name: "Paul McCartney"
- - folder: bruce
-   name: "Bruce Springsteen"
+ - folder: orebolo
+   name: "Orebolo"
  - folder: queen
    name: "Queen"
  - folder: stones
