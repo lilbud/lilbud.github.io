@@ -5,8 +5,6 @@ title: "Retropie"
 excerpt: "Themes/Splashscreens for the RetroPie project"
 feature-path: "/assets/img/graphics/retropie"
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
   overlay_image: /assets/img/graphics/retropie/retropie-feature.jpg
 feature_row:
   - image_path: /assets/img/graphics/retropie/splashscreens-feature.png

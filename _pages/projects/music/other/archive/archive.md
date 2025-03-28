@@ -13,15 +13,7 @@ header:
 
 Covers for the Bruce Springsteen Archive series.
 
-THERE IS NO ACTUAL ARCHIVES IN THIS REPO, ONLY THE DIGITAL COVERS THAT WERE EMBEDDED IN THE FILES ORIGINALLY.
-
 All covers acquired from either the archive releases I personally have bought (not that many), by asking around on various online communities, or searching online for the best cover. 
-
-~~I am still missing nearly all of the 2014 High Hopes tour (see missing.txt).~~
-
-~~All 2014 covers are here, though most are shitty low-res versions. Not preferred but better than nothing~~
-
-UPDATE (2023-09-07): All 2014 covers have been added, thanks to underdog13a on BTX.
 
 Almost every show was released except for a few choice ones. Quite a few shows were pulled when the switch was made from LiveNation to Nugs. The few not released include:
 
@@ -37,11 +29,10 @@ Current count:
 - 1975-2013: Complete
 - 2014: 26 of 27
 - 2016-17: Complete
-- 2023: Complete (just looking for upgrades for a dozen or so, check the 2023list.txt file)
+- 2023: Complete
+- 2024: Complete (to be added later)
 
 ---
-
-So far, I have every cover from the ongoing 2023 tour so far. 1 of them is a full res cover (1500px), and the bulk are slightly lower res 1080x covers. Which seems to be the best I can find floating around. Those 1080x covers are from [Michelle Holme's website](https://michelleholme.com/portfolio/nugs-tour-2023). Some are only 600px covers, and these are not desired, as they aren't great quality. 600px is apparently the new size that the downloads are tagged with, whereas they used to be higher res. Every site that sells the archives also only has 600px covers max with nothing higher.
 
 UPDATE (August 9, 2023):
 Thanks to underdog13a on BTX, all of the 2023 covers are now minimum 1000x1000px, with many being larger and even 1500x1500 (possibly max res).

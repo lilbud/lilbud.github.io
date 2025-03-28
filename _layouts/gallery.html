@@ -4,12 +4,14 @@ author_profile: false
 classes: wide
 ---
 
+{% assign images = site.static_files | where_exp: "image", "image.path contains page.dirname" %}
 <figure class="third">
-    {% for image in site.static_files %}
-    {% if image.path contains page.dirname %}
-    <a href='{{ image.path }}' title="{{ image.basename }}">
-        <img src='{{ image.path }}'>
-    </a>
-    {% endif %}
+    {% for image in images %}
+        <a href='{{ image.path }}' title="{{ image.basename }}">
+            <img height="300"
+                 width="300"
+                 alt="{{ image.name }}"
+                 src="{{ image.path }}">
+        </a>
     {% endfor %}
 </figure>
