@@ -39,12 +39,22 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: pull subtree
+      # - name: pull subtree
+      #   run: |
+      #     git config user.name "${GITHUB_ACTOR}"
+      #     git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      #     git subtree pull --prefix assets/img/graphics/bootleg-covers/covers https://github.com/lilbud/Bootleg_Covers.git HEAD --squash
+      - name: grab covers
+        run: git clone "https://github.com/lilbud/Bootleg_Covers.git"
+
+      - name: copy covers to folder
+        run: cp -r ./Bootleg_Covers/. ./assets/img/graphics/bootleg-covers/covers
+
+      # remove cloned folder
+      - name: remove clone
         run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git subtree pull --prefix assets/img/graphics/bootleg-covers/covers https://github.com/lilbud/Bootleg_Covers.git HEAD --squash
-          
+          rm -rf ./Bootleg_Covers
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854
         with:
