@@ -11,6 +11,8 @@ images:
    name: "David Bowie"
  - folder: gd
    name: "Grateful Dead"
+ - folder: goose
+   name: "Goose"
  - folder: deadco
    name: "Dead & Company"
  - folder: mccartney
