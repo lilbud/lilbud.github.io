@@ -1,13 +1,10 @@
 ---
 title:  "Tales from the Boots: David Bowie live at the Forum in Inglewood, CA — August 14, 1983"
 excerpt: "A review I wrote of a David Bowie concert bootleg"
-categories: bowie bootleg review
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
-toc_sticky: true
+tags: davidbowie bootleg review music
 header:
-  overlay_image: /assets/img/blog/2020-06-07-bowie/header.png
+  overlay_image: /assets/img/blog/2020-06-07-bowie/header.jpg
+  teaser: /assets/img/blog/2020-06-07-bowie/header.jpg
 ---
 
 Note: While I enjoy David Bowie’s music, I am not a major fan. I enjoy hearing it on the radio, but I’m not one to actively search it out on my own to listen to.

@@ -1,13 +1,10 @@
 ---
 title:  "Somewhere Deep into the Heart of the Crowd — The Story of a Compilation"
 excerpt: "Short intro story about one of my compilations"
-categories: bruce compilation somewheredeepintotheheartofthecrowd
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
-toc_sticky: true
+tags: bruce compilation somewheredeepintotheheartofthecrowd
 header:
   overlay_image: /assets/img/blog/2022-01-05-somewhere/header.jpg
+  teaser: /assets/img/blog/2022-01-05-somewhere/header.jpg
 ---
 
 If you want to listen to this compilation: Click [Here](/projects/music/compilations/bruce/somewhere)

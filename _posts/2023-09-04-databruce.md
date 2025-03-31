@@ -1,11 +1,7 @@
 ---
 title: "Databruce v1"
 excerpt: "An SQLite Database of Bruce Springsteens Performing Career"
-categories: springsteen programming
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
-toc_sticky: true
+tags: springsteen programming
 header:
   actions:
     - label: "View on Github"

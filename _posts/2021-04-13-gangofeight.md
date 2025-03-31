@@ -1,11 +1,7 @@
 ---
 title:  "The Gang Destroys a Forum Thread"
 excerpt: "Story of the 'Gang of Eight' and their attempts to ruin a fun hobby"
-categories: springsteen recap
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
-toc_sticky: true
+tags: springsteen recap
 ---
 
 Note: The below is a mini recap of the "Gang of Eight" situation, in which a group of collectors tried to implement their own rules on a Bootleg Sharing Thread over on GreasyLake. I wrote this to catch people up on what happened. Context and all that, if you know me on discord I mention this every now and then.

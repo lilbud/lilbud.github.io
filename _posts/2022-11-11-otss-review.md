@@ -1,22 +1,19 @@
 ---
 title:  "Only the Strong Survive — A Review of Sorts"
 excerpt: "A review I wrote of Bruce Springsteen's latest album"
-categories: springsteen review
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
-toc_sticky: true
+tags: springsteen review
 header:
   overlay_image: /assets/img/blog/2022-11-11-otss/header.jpg
+  teaser: /assets/img/blog/2022-11-11-otss/header.jpg
 ---
 
 Hello, and welcome to
 
-![who gives a shit.jpg](/assets/img/blog/2022-11-11-otss/1.jpg)
+![who gives a shit.jpg](/assets/img/blog/2022-11-11-otss/toolate.jpg)
 
 Where I add one more batch of steaming hot takes onto a large pile that has been accumulating since the album leaked and reviews popped up 3 weeks ago.
 
-#### Preface
+## Preface
 
 This review will consist mostly of notes I jotted down while listening to the album for the first time, though a bit expanded idea wise if that makes sense. I listened to the high-res 24/96 version from HDTracks, which was definitely a step up from the singles on streaming in the lead up to this albums release.
 
@@ -39,7 +36,7 @@ And that is a brief history leading us to November 11th.
 
 Below I’ll go song by song, as mentioned these notes were mostly jotted down on my phone while listening.
 
-#### Song Thoughts
+## Song Thoughts
 
 - Only the Strong Survive: okay, backing is good, his vocals are kinda weird with the phrasing and timing as compared to the original. (7/10)
 
@@ -71,7 +68,7 @@ Below I’ll go song by song, as mentioned these notes were mostly jotted down o
 
 - Someday We’ll Be Together: the intro strings were unexpected. I like the intro being instrumental and backing vocals for like 45 seconds. definitely works as a “final song” on an album. The sound just leads like that, I can’t explain what makes a song sound like an “ending”. his long note on “cry” is great. The only song where the fade out feels natural. (8/10)
 
-#### General Thoughts and Nitpicks
+## General Thoughts and Nitpicks
 
 Overall, this isn’t a bad collection of songs. He definitely did better going the “road less travelled” path, by picking not super well-known songs. Rather than just covering the big hits and leaving it at that. I think it's a better album by going the former route, rather than the latter. Of course, as an album of covers, they’re going to be directly compared against the originals and criticized heavily based solely on “well it isn’t as good as the original”. There’s no getting around that aspect of it.
 
@@ -111,8 +108,8 @@ Now, I’m not saying Bruce should have gone as far as Jimi did (I basically con
 
 Again, it's a fine line, but I’m sure he could have pulled it off.
 
-#### Conclusion
+## Conclusion
 
 I’d like to mention one more time, this is not a bad album by any means. For all my nitpicking, I like many of the songs on the album. I just think the concept had wasted potential it could have executed. I think it would have benefited from session players or other musicians and a willingness to stray a bit from perfectly recreating the songs note-for-note. Though, taking it at face value, its a great collection of songs. And, for what it sets out to do, it passes that goal with flying colors.
 
-Favorite songs: Nightshift, Sun Ain’t Gonna Shine, Western Union Man, I Wish It Would Rain, Any Other Way, I Forgot to Be Your Lover, 7 Rooms of Gloom, What Becomes of the Broken Hearted.
+Favorite songs: Nightshift, Sun Ain’t Gonna Shine, Western Union Man, I Wish It Would Rain, Any Other Way, I Forgot to Be Your Lover, 7 Rooms of Gloom, What Becomes of the Brokenhearted.

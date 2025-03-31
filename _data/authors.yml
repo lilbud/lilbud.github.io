@@ -1,0 +1,10 @@
+Brian:
+  name             : "Brian"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "A Practicing Graphic Designer and Programmer"
+  location         : "Somewhere in the Swamps"
+  email            :
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/lilbud"

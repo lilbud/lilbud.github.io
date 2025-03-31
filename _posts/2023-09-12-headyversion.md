@@ -1,11 +1,7 @@
 ---
 title: "Headyversion Links"
 excerpt: "Links to specific dates on Headyversion sorted by Year"
-categories: gratefuldead
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
-toc_sticky: true
+tags: gratefuldead
 ---
 
 ## Info:
