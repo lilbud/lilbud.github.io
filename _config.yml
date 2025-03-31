@@ -106,50 +106,20 @@ analytics:
 author:
   name             : "Brian"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A Practicing Graphic Designer and Programmer"
-  location         : "Somewhere in the Swamps"
+  bio              : "Graphic Designer and Programmer"
+  location         : "New Jersey"
   email            :
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lilbud"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-      # url:
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-      # url:
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-      # url:
-    # - label: "GitLab"
-    #   icon: "fab fa-fw fa-gitlab"
-      # url:
-    # - label: "Bitbucket"
-    #   icon: "fab fa-fw fa-bitbucket"
-      # url:
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/lilbud"
 
 
 # Reading Files
@@ -216,12 +186,32 @@ sass:
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
-# Outputting
-permalink: /:categories/:title/
+# Pagination with jekyll-paginate
+permalink: pretty
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: EST
 
+# Pagination with jekyll-paginate-v2
+# See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
+#   for configuration details
+pagination:
+  # Set enabled to true to use paginate v2
+  enabled: true
+  debug: false
+  collection: 'posts'
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+  tag: ''
+  locale: ''
+  trail:
+    before: 2
+    after: 2
 
 # Plugins (previously gems:)
 plugins:
@@ -256,18 +246,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -279,35 +257,60 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      read_time: false
+      comments: false
+      related: false
+      toc: true
+      toc_label: "Years"
+      toc_icon: "cog"
+      toc_sticky: true
+      header:
+        overlay_color: "#000"
+        overlay_filter: "0.5"
+        overlay_image: /assets/img/header/home.jpg
+
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      show_date: true
-      author_profile: true
-      date_format: "%Y-%m-%d"
       read_time: true
-      comments: # true
-      share: false
       related: true
-      header:
-        overlay_color: "#000"
-        overlay_filter: "0.5"
-        overlay_image: /assets/img/header/homepage.jpg
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      header:
-        overlay_color: "#000"
-        overlay_filter: "0.5"
-        overlay_image: /assets/img/header/homepage.jpg
+      comments: true
+
   - scope:
       path: "assets/img"
     values:
       image: true
+
+collections:
+  graphics:
+    label: "Graphics"
+    output: true
+    permalink: /:collection/:path/
+  bootleg-covers:
+    label: "Bootleg Covers"
+    output: true
+    permalink: /:collection/:path/
+  programming:
+    label: "Programming"
+    output: true
+    permalink: /:collection/:path/
+  music:
+    label: "Music"
+    output: true
+    permalink: /:collection/:path/
+    order:
+      - twolanes.md
+      - boston.md
+      - leaves.md
+      - nassau.md
+      - somewhere.md
+      - passaic.md
+      - bigman.md
+      - bandplayed.md

@@ -1,0 +1,18 @@
+---
+layout: single
+---
+<!-- djlint:off -->
+{% for item in page.images %}
+{{ item | prepend: "# " | markdownify }}
+{% assign dirname = page.artist | append: "/covers/" | append: item %}
+{% assign images = site.static_files | where_exp: "image", "image.path contains dirname" %}
+<div class="image-gallery">
+    {% for image in images %}
+    <div class="box">
+        <a href="{{ image.path }}">
+            <img src="{{ image.path }}" alt="{{ image.name }}" class="img-gallery" loading="lazy" />
+        </a>
+    </div>
+    {% endfor %}
+</div>
+{% endfor %}

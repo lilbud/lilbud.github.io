@@ -1,7 +1,7 @@
 ---
 title: "Databruce v2"
 excerpt: "A PostgreSQL Database of Bruce Springsteens Performing Career"
-categories: springsteen programming postgres
+tags: springsteen programming postgres
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
