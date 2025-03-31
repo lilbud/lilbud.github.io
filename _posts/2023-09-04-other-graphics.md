@@ -1,10 +1,10 @@
 ---
 title: "Other Projects"
-permalink: "/projects/graphics/other"
+tags: projects graphics others
 excerpt: "Catch-all for assorted projects/designs"
 header:
-  overlay_image: /assets/img/graphics/other/other-feature.jpg
-  teaser: /assets/img/graphics/other/other-feature.jpg
+  overlay_image: /assets/img/blog/2023-09-04-other-graphics/header.jpg
+  teaser: /assets/img/blog/2023-09-04-other-graphics/header.jpg
 ---
 
 Links will be included to download when possible, I couldn't figure out a good way to format this page, so plain text and links it is. Plus I don't know how long this page will be so its probably for the better.

@@ -1,23 +1,16 @@
 ---
-title: Graphics
+title: "Bootleg Covers"
+tags: projects graphics
+permalink: /projects/graphics/bootleg-covers
 toc: false
-permalink: /projects/graphics/
 classes: wide
+excerpt: "Covers for Concert Tapes"
+header:
+  overlay_image: /assets/img/blog/2025-03-31-bootlegcovers/header.jpg
+  teaser: /assets/img/blog/2025-03-31-bootlegcovers/header.jpg
 ---
-
 <div class="entries-grid">
-    <div class="grid__item">
-        <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
-            <div class="archive__item-teaser">
-                <img src="/assets/img/feature/projects/graphics/bootleg-covers.jpg" alt="">
-            </div>
-            <h2 class="archive__item-title no_toc" itemprop="headline">
-                <a href="/projects/graphics/bootleg-covers" rel="permalink">Bootleg Covers</a>
-            </h2>
-            <p class="archive__item-excerpt" itemprop="description">Covers for Concert Tapes</p>
-        </article>
-    </div>
-    {% for collection in site.graphics %}
+    {% for collection in site.bootleg-covers %}
         <div class="grid__item">
             <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
                 <div class="archive__item-teaser">

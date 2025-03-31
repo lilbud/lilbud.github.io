@@ -1,7 +1,8 @@
 ---
 title: "Databruce v1"
+tags: projects programming
 excerpt: "An SQLite Database of Bruce Springsteens Performing Career"
-tags: springsteen programming
+tags: writing bruce
 header:
   actions:
     - label: "View on Github"

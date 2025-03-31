@@ -1,7 +1,7 @@
 ---
 title:  "Skyline Pigeon Restoration"
 excerpt: "Restoration of the Skyline Pigeon video from Ryan White's funeral"
-tags: music restoration eltonjohn
+tags: projects music restoration eltonjohn
 classes: wide
 header:
   overlay_image: /assets/img/blog/2025-01-31-skyline-pigeon/header.jpg

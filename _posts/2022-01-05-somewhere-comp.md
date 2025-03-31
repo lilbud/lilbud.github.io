@@ -1,7 +1,7 @@
 ---
 title:  "Somewhere Deep into the Heart of the Crowd — The Story of a Compilation"
 excerpt: "Short intro story about one of my compilations"
-tags: bruce compilation somewheredeepintotheheartofthecrowd
+tags: writing bruce compilation
 header:
   overlay_image: /assets/img/blog/2022-01-05-somewhere/header.jpg
   teaser: /assets/img/blog/2022-01-05-somewhere/header.jpg

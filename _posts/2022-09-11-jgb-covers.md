@@ -1,7 +1,8 @@
 ---
 title:  "JGB Cover Project"
 excerpt: "Covers for the JGB Project"
-tags: jerrygarcia projects graphics
+tags: projects graphics jgb
+classes: wide
 header:
   overlay_image: /assets/img/blog/2022-09-11-jgb-covers/header.jpg
   teaser: /assets/img/blog/2022-09-11-jgb-covers/header.jpg

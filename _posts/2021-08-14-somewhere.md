@@ -1,6 +1,6 @@
 ---
-permalink: /projects/music/compilations/bruce/somewhere
 title: "Somewhere Deep into The Heart of the Crowd"
+tags: projects music compilations bruce
 excerpt: "My largest compilation to date, 6 volumes totalling 8hrs (Released From June 2021 to August 2021)"
 header:
   overlay_image: /assets/img/blog/2021-08-14-somewhere/header.jpg

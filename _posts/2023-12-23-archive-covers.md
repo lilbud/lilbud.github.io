@@ -1,7 +1,7 @@
 ---
 title:  "Springsteen Archive Series Covers"
 excerpt: "A collection of Official Covers from the Springsteen Archives Series"
-tags: projects other
+tags: projects other bruce
 header:
   overlay_image: /assets/img/blog/2023-12-23-archive-covers/header.jpg
   teaser: /assets/img/blog/2023-12-23-archive-covers/header.jpg

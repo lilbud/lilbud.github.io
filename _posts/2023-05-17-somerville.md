@@ -1,5 +1,6 @@
 ---
 title:  "Doubletake Magazine Benefit 2003"
+tags: projects music matrix bruce
 excerpt: "An IEM/AUD mix of Bruce's 2003 benefit for Doubletake Magazine"
 tags: projects music
 header:

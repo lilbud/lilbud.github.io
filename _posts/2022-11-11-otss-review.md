@@ -1,7 +1,7 @@
 ---
 title:  "Only the Strong Survive — A Review of Sorts"
 excerpt: "A review I wrote of Bruce Springsteen's latest album"
-tags: springsteen review
+tags: writing springsteen
 header:
   overlay_image: /assets/img/blog/2022-11-11-otss/header.jpg
   teaser: /assets/img/blog/2022-11-11-otss/header.jpg

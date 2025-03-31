@@ -1,11 +1,11 @@
 ---
 title: 'RetroPie Splashscreens'
-permalink: /projects/graphics/retropie/splashscreens
+tags: projects graphics retropie
 dirname: 'splashscreens/'
 excerpt: "Splashscreens for RetroPie"
 header:
-  overlay_image: /assets/img/feature/projects/graphics/splashscreens.jpg
-  teaser: /assets/img/feature/projects/graphics/splashscreens.jpg
+  overlay_image: /assets/img/blog/2019-06-01-splashscreens/header.jpg
+  teaser: /assets/img/blog/2019-06-01-splashscreens/header.jpg
 ---
 
 These are all splashscreens I've made from roughly 2014/15 until around 2019. Many of these I had to track down through Imgur and my posts on the RetroPie Forum. Sadly, the project files and assets are long gone, before I knew anything about backing stuff up

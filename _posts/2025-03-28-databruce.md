@@ -1,12 +1,11 @@
 ---
-permalink: /projects/programming/databruce
 title: "Databruce"
+tags: projects programming bruce
 toc: false
 classes: wide
 excerpt: "A Database of Bruce Springsteens Performing Career"
-date: "2025-03-28"
 header:
-  teaser: /assets/img/feature/projects/programming/databruce.png
+  teaser: /assets/img/blog/2025-03-28-databruce/header.png
   actions:
     - label: "View on Github"
       url: "https://github.com/lilbud/databruce"

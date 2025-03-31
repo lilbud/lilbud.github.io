@@ -1,7 +1,6 @@
 ---
 title: "And the Band Played: 1973/74"
-permalink: /projects/music/compilations/bruce/bandplayed7374
-date: 2023-03-12
+tags: projects music compilations bruce
 excerpt: "A compilation of Bruce Springsteen shows from 1973 and 1974"
 header:
   overlay_image: /assets/img/blog/2023-03-12-bandplayed/header.jpg
