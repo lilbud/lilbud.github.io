@@ -2,17 +2,24 @@
 layout: single
 ---
 <!-- djlint:off -->
-{% for item in page.images %}
-{{ item | prepend: "# " | markdownify }}
-{% assign dirname = page.artist | append: "/covers/" | append: item %}
-{% assign images = site.static_files | where_exp: "image", "image.path contains dirname" %}
+{% assign github_url = 'https://raw.githubusercontent.com/lilbud/bootleg_covers/refs/heads/main' %}
+
+{% for year in page.years %}
+{{ year | prepend: "# " | markdownify }}
+{% capture dirname %}{{ page.artist }}/covers/{{ year }}{% endcapture %}
+{% assign images = site.data.covers.tree | where_exp:"item","item.path contains dirname" %}
+
 <div class="image-gallery">
-    {% for image in images %}
+    {% for item in images %}
+    {%- if item.path contains '.jpg' or item.path contains '.png' -%}
+    {% assign name = item.path | split:'/' %}
     <div class="box">
-        <a href="{{ image.path }}">
-            <img src="{{ image.path }}" alt="{{ image.name }}" class="img-gallery" loading="lazy" />
+        <a href="{{ github_url }}/{{ item.path }}">
+            <img src="{{ github_url }}/{{ item.path }}" alt="{{ name.last }}" class="img-gallery" loading="lazy" />
         </a>
     </div>
+    {%- endif -%}
     {% endfor %}
 </div>
+
 {% endfor %}

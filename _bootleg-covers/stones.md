@@ -7,7 +7,7 @@ excerpt: "Covers for Rolling Stones Tapes"
 header:
   overlay_image: /assets/img/graphics/bootleg-covers/artists/stones.jpg
   teaser: /assets/img/graphics/bootleg-covers/artists/stones.jpg
-images:
+years:
  - 1981
  - 1989
 ---

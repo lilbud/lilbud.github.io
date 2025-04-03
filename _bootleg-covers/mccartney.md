@@ -7,6 +7,6 @@ excerpt: "Covers for Paul McCartney Bootlegs"
 header:
   overlay_image: /assets/img/graphics/bootleg-covers/artists/mccartney.jpg
   teaser: /assets/img/graphics/bootleg-covers/artists/mccartney.jpg
-images:
+years:
  - 1989
 ---

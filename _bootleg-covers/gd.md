@@ -7,7 +7,7 @@ excerpt: "Covers for Grateful Dead Tapes"
 header:
   overlay_image: /assets/img/graphics/bootleg-covers/artists/gd.jpg
   teaser: /assets/img/graphics/bootleg-covers/artists/gd.jpg
-images:
+years:
  - 1971
  - 1974
  - 1978

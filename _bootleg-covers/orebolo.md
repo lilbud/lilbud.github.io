@@ -7,6 +7,6 @@ excerpt: "Covers for Orebolo Tapes"
 header:
   overlay_image: /assets/img/graphics/bootleg-covers/artists/orebolo.jpg
   teaser: /assets/img/graphics/bootleg-covers/artists/orebolo.jpg
-images:
+years:
  - 2023
 ---

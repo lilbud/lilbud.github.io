@@ -7,7 +7,7 @@ excerpt: "Covers for Dead and Company Bootlegs"
 header:
   overlay_image: /assets/img/graphics/bootleg-covers/artists/deadco.jpg
   teaser: /assets/img/graphics/bootleg-covers/artists/deadco.jpg
-images:
+years:
  - 2022
  - 2023
 ---

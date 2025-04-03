@@ -7,7 +7,7 @@ excerpt: "Covers for Bruce Springsteen Bootlegs"
 header:
   overlay_image: /assets/img/graphics/bootleg-covers/artists/bruce.jpg
   teaser: /assets/img/graphics/bootleg-covers/artists/bruce.jpg
-images:
+years:
  - 1970
  - 1973
  - 1974

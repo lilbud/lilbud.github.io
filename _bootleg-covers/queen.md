@@ -7,7 +7,7 @@ excerpt: "Covers for Queen Bootlegs"
 header:
   overlay_image: /assets/img/graphics/bootleg-covers/artists/queen.jpg
   teaser: /assets/img/graphics/bootleg-covers/artists/queen.jpg
-images:
+years:
  - 1973
  - 1985
 ---

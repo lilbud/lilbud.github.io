@@ -7,7 +7,7 @@ excerpt: "Covers for David Bowie Bootlegs"
 header:
   overlay_image: /assets/img/graphics/bootleg-covers/artists/bowie.jpg
   teaser: /assets/img/graphics/bootleg-covers/artists/bowie.jpg
-images:
+years:
  - 1983
  - 1990
 ---

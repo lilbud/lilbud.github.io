@@ -7,6 +7,6 @@ excerpt: "Covers for Billy Joel Bootlegs"
 header:
   overlay_image: /assets/img/graphics/bootleg-covers/artists/billyjoel.jpg
   teaser: /assets/img/graphics/bootleg-covers/artists/billyjoel.jpg
-images:
+years:
  - 1977
 ---

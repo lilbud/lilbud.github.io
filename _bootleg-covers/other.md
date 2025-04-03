@@ -7,6 +7,6 @@ excerpt: "Covers for Other Bootlegs"
 header:
   overlay_image: /assets/img/graphics/bootleg-covers/artists/other.jpg
   teaser: /assets/img/graphics/bootleg-covers/artists/other.jpg
-images:
+years:
  - 2024
 ---
