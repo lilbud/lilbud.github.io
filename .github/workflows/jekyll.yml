@@ -38,25 +38,19 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+
       - name: Download covers.json from Covers repo
         run: |
           curl https://api.github.com/repos/lilbud/Bootleg_Covers/git/trees/main?recursive=1 --output _data/covers.json
 
-      # - name: pull subtree
-      #   run: |
-      #     git config user.name "${GITHUB_ACTOR}"
-      #     git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-      #     git subtree pull --prefix assets/img/graphics/bootleg-covers/covers https://github.com/lilbud/bootleg_covers.git HEAD --squash
-
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          # ruby-version: '3.3' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
   
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
