@@ -81,7 +81,7 @@ Next is a quick before and after of issue 73. Which Eddie scanned and then resca
     <img src="/assets/img/blog/2025-04-06-backstreets-mag-archive/issue73-compare.jpg" alt="{{ name.last }}" loading="lazy" />
 </a>
 
-## User Contributions:
+## User Contributions
 Below I'll list each users contributions:
 - Eddie:
     - Issues: 44, 60, 63-65, 73, 77-78, 80, 91
