@@ -14,6 +14,8 @@ header:
       url: "https://docs.google.com/spreadsheets/d/1Rc8c3gvKWHdAo9bx9Fkl6Dg5RlF5ENr5dqpb_C_uBZs/edit?usp=sharing"
 ---
 
+![](/assets/img/blog/2025-04-06-backstreets-mag-archive/logo.png)
+
 **Project Start:** March 26, 2025<br>**Project End:** April 6, 2025
 
 Torrent file will also available on Jungleland torrents.
