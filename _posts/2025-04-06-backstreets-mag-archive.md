@@ -18,8 +18,6 @@ header:
 
 **Project Start:** March 26, 2025<br>**Project End:** April 6, 2025
 
-Torrent file will also available on Jungleland torrents.
-
 ## History of Backstreets
 It's late 2013. Somewhere in North Carolina, the folks at Backstreets Magazine have just published issue #91, paying tribute to Clarence Clemons who passed away two years prior. Little did anyone know at the time, but this would be the final issue of Backstreets Magazine, ending a 43 year run that started when Charles Cross was handing out the first issue at Bruce's show in Seattle on October 24, 1980. 
 
