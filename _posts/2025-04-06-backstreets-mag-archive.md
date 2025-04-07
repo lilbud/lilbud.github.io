@@ -30,13 +30,13 @@ A treasure trove that was largely inaccessible on the internet...until now.
 Thanks to myself and members of the StonePonyLondon forum, the entire run of Backstreets Magazine has been digitized and is now freely available for anyone to read and download.
 
 ## Project Intro
-I basically stumbled into this project without really intending to. 
+I basically stumbled into this project without really intending to.
 
 I have a number of archival Bruce-related projects under my belt. Things like the [BTX Article Thread Backup](https://github.com/lilbud/btx-article-dump), which is a text-based archive of nearly 1,000 articles. Or the [Radio Nowhere Archive](https://archive.org/details/radionowhere), which is an ongoing project working to make as many bootlegs freely available for stream/download.
 
-I also have a list of projects to look into, one of them being an archive of Backstreets Magazine. Although, I figured this would've been an "over time" project. One where I'd stumble upon issues here and there, and build up the archive over a few weeks or even months.
+I also have a list of projects to look into, one of them being an archive of Backstreets Magazine. Although, I figured this would've been an "overtime" project. One where I'd stumble upon issues here and there, and build up the archive over a few weeks or even months.
 
-On March 26, I went onto StonePonyLondon, a Bruce forum that has been around for a number of years (pretty sure longer than I have). There was a thread posted by BigD asking if anyone had a scan of Backstreets #11. A member named Garry responded with a scanned copy, which I then took and formatted those JPGs into a PDF. I then asked if there was more copies out there, fully thinking that the response would be no, and that would be it. Surely it couldn't be that easy right?
+On March 26, I went to StonePonyLondon, a Bruce forum that has been around for a number of years (pretty sure longer than I have). There was a thread posted by BigD asking if anyone had a scan of Backstreets #11. A member named Garry responded with a scanned copy, which I then took and formatted those JPGs into a PDF. I then asked if there were more copies out there, fully thinking that the response would be no, and that would be it. Surely it couldn't be that easy right?
 
 {% include video id="h9uA45vwdb0" provider="youtube" %}
 
@@ -58,13 +58,13 @@ For the issues provided by Eddie, these were already PDF files, completely skipp
 
 Very little work was needed on Eddie's scans, which saved me a good bit of time. The most that had to be done was fixing the orientation of some pages that the Epson software mistakenly rotated.
 
-After I had PDFs of all the issues (from both Garry and Ed), I next used another Python library named `ocrmypdf`. Which uses the same Tessaract OCR process that the Internet Archive does. Ed's scans were already OCRd by the scanner, but I wanted to redo all of the issues with the same tool so they were all mostly consistent.
+After I had PDFs of all the issues (from both Garry and Ed), I next used another Python library named `ocrmypdf`. Which uses the same Tesseract OCR process that the Internet Archive does. Ed's scans were already OCRd by the scanner, but I wanted to redo all of the issues with the same tool so they were all mostly consistent.
 
 10 of the issues were scanned as spreads, rather than single pages. Since the other 81 issues were single pages, I asked Eddie to rescan these just to keep everything consistent with each other.
 
 Once the issues were ready, they were then uploaded to both MEGA and Archive.org. I also plan to release a torrent file on Jungleland so stay tuned for that.
 
-I really want to thank Eddie for scanning and even rescanning a number of issues. We had the shared goal of making this as good as it could possibly be. Because of his efforts, these are the highest quality versions of these issues available anywhere on the internet. 
+I really want to thank Eddie for scanning and even rescanning a number of issues. We had the shared goal of making this as good as it could possibly be. Because of his efforts, these are the highest quality versions of these issues available anywhere on the internet.
 
 ## Comparisons
 Real quick, I wanted to show a before and after of sorts. Comparing a few early scans to their final versions included in this project. 
