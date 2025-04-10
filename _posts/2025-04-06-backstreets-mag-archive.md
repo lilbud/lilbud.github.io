@@ -7,7 +7,7 @@ header:
   teaser: /assets/img/blog/2025-04-06-backstreets-mag-archive/preview.jpg
   actions:
     - label: "Internet Archive"
-      url: "https://archive.org/search?query=creator%3ABackstreets+Magazine&sort=title"
+      url: "https://archive.org/details/@lilbud/lists/2/backstreets?sort=title"
     - label: "MEGA"
       url: "https://mega.nz/folder/QgB0zbCb#J9tQIU21dDf-cgQKwrvUiA"
     - label: "List of Issues"
@@ -15,6 +15,9 @@ header:
 ---
 
 ![](/assets/img/blog/2025-04-06-backstreets-mag-archive/logo.png)
+
+### UPDATES
+- 2025-04-10: changed IA link above to go to a list of every issue, rather than the search page.
 
 **Project Start:** March 26, 2025<br>**Project End:** April 6, 2025
 
