@@ -6,8 +6,10 @@ header:
   actions:
     - label: "Internet Archive"
       url: "https://archive.org/details/@lilbud/lists/3/point-blank-magazine?sort=title"
+    - label: "MEGA"
+      url: "https://mega.nz/folder/A5AwFSCC#xtbMzA8Pvk6zG7lal3wRQQ"
     - label: "Dan's Site"
-      url: "https://sites.google.com/site/wildandinnocentproductions/home?authuser=0"
+      url: "https://sites.google.com/site/wildandinnocentproductions/home"
 ---
 
 ### Intro
