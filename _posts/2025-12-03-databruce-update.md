@@ -44,7 +44,9 @@ Also, I've removed the "Synthwave" theme as I didn't really like it and thought 
 Changed how tables are rendered, utilizing server side rendering instead of the default. Meaning sorting/searching/filtering is handled differently. Which means that tables load faster. 
 
 ## Searching
-The search bar also now accepts regular expressions (or regex). Regex is a way of searching text by matching patterns, as compared to "standard" searching, which is more limited. An example can be seen below, and more on regex can be found [here](https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/).
+The search bar also now accepts regular expressions (or regex). Regex is a way of searching text by matching patterns, as compared to "standard" searching, which is more limited. As a note, the regex search is case insensitive. So capitalization doesn't matter.
+
+An example can be seen below, and more on regex can be found [here](https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/).
 
 ```
 night: matches the word "night" anywhere in text.
