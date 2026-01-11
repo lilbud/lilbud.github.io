@@ -59,7 +59,7 @@ Because of these problems, I removed the child rows and simply adapted the table
 
 <figure class="half">
     <a href="/assets/img/blog/2025-12-03-databruce-update/mobile-table-open.png"><img src="/assets/img/blog/2025-12-03-databruce-update/mobile-table-open.png"></a>
-    <a href="/assets/img/blog/2026-01-04-databruce-december/no-child.png"><img src="/assets/img/blog/2026-01-04-databruce-december/no-child.png"></a>
+    <a href="/assets/img/blog/{{ page.url|slugify }}/no-child.png"><img src="/assets/img/blog/{{ page.url|slugify }}/no-child.png"></a>
     <figcaption>Before and After</figcaption>
 </figure>
 
