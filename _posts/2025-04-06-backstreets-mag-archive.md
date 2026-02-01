@@ -14,10 +14,11 @@ header:
       url: "https://docs.google.com/spreadsheets/d/1Rc8c3gvKWHdAo9bx9Fkl6Dg5RlF5ENr5dqpb_C_uBZs/edit?usp=sharing"
 ---
 
-![](/assets/img/blog/2025-04-06-backstreets-mag-archive/logo.png)
+{% include figure popup=true image_path="/assets/img/blog/2025-04-06-backstreets-mag-archive/logo.png" alt="" caption="" %}
 
-### UPDATES
+**UPDATES**
 - 2025-04-10: changed IA link above to go to a list of every issue, rather than the search page.
+- 2026-01-31: going through old posts and fixing all images to use pop-ups instead of links. Easier on my end.
 
 **Project Start:** March 26, 2025<br>**Project End:** April 6, 2025
 
@@ -72,15 +73,11 @@ Real quick, I wanted to show a before and after of sorts. Comparing a few early 
 
 First up is issue 47. The original was provided by Garry, and a rescan was done by Eddie. This mostly shows the quality increase that the Epson V600 provides.
 
-<a href="/assets/img/blog/2025-04-06-backstreets-mag-archive/issue47-comparison.jpg">
-    <img src="/assets/img/blog/2025-04-06-backstreets-mag-archive/issue47-comparison.jpg" alt="{{ name.last }}" loading="lazy" />
-</a>
+{% include figure popup=true image_path="/assets/img/blog/2025-04-06-backstreets-mag-archive/issue47-comparison.jpg" alt="" caption="" %}
 
 Next is a quick before and after of issue 73. Which Eddie scanned and then rescanned after dialing in his process.
 
-<a href="/assets/img/blog/2025-04-06-backstreets-mag-archive/issue73-compare.jpg">
-    <img src="/assets/img/blog/2025-04-06-backstreets-mag-archive/issue73-compare.jpg" alt="{{ name.last }}" loading="lazy" />
-</a>
+{% include figure popup=true image_path="/assets/img/blog/2025-04-06-backstreets-mag-archive/issue73-compare.jpg" alt="" caption="" %}
 
 ## User Contributions
 Below I'll list each users contributions:
