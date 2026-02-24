@@ -2,7 +2,7 @@
 layout: single
 ---
 <!-- djlint:off -->
-{% assign github_url = 'https://raw.githubusercontent.com/lilbud/bootleg_covers/refs/heads/main' %}
+{% assign github_url = 'https://raw.githubusercontent.com/lilbud/bootleg_covers/refs/heads/main/' %}
 
 {% for year in page.years %}
 {{ year | prepend: "# " | markdownify }}
@@ -12,10 +12,12 @@ layout: single
 <div class="image-gallery">
     {% for item in images %}
     {%- if item.path contains '.jpg' or item.path contains '.png' -%}
-    {% assign name = item.path | split:'/' %}
+    <!-- {% assign name = item.path | split:'/' %} -->
+    {% assign temp_url = github_url | append: item.path %}
     <div class="box">
-        <a href="{{ github_url }}/{{ item.path }}">
-            <img src="{{ github_url }}/{{ item.path }}" alt="{{ name.last }}" class="img-gallery" loading="lazy" />
+        <a href="{{ temp_url }}">
+            <img src="{{ temp_url }}" alt="{{ item.basename }}" class="img-gallery" height="300" width="300"
+                loading="lazy" />
         </a>
     </div>
     {%- endif -%}
