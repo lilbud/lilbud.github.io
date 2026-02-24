@@ -1,28 +1,28 @@
 {
-  "sha": "154b83f3100f378f278ffba1301f6cdf6b9714d1",
-  "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/154b83f3100f378f278ffba1301f6cdf6b9714d1",
+  "sha": "caa0452d5ef33765eb16387d5975cf5d249f85c4",
+  "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/caa0452d5ef33765eb16387d5975cf5d249f85c4",
   "tree": [
     {
       "path": ".github",
       "mode": "040000",
       "type": "tree",
-      "sha": "e54eae62841059e7bc35e118971d77ca77f545b5",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/e54eae62841059e7bc35e118971d77ca77f545b5"
+      "sha": "a86c083d6513ef048f53ca63f5c934b0f79815f0",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/a86c083d6513ef048f53ca63f5c934b0f79815f0"
     },
     {
       "path": ".github/workflows",
       "mode": "040000",
       "type": "tree",
-      "sha": "6dee3aa003b7f947fb58b51eb6647f3c4256494c",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/6dee3aa003b7f947fb58b51eb6647f3c4256494c"
+      "sha": "4859742790bd7642431c3420d6248ee3ea28394c",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/4859742790bd7642431c3420d6248ee3ea28394c"
     },
     {
       "path": ".github/workflows/main.yml",
       "mode": "100644",
       "type": "blob",
-      "sha": "9eb88b6bec6b9f737f4dac2579538cba6b1fb3ad",
-      "size": 576,
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/9eb88b6bec6b9f737f4dac2579538cba6b1fb3ad"
+      "sha": "4eb1200b339b2f96d7576166df44804a048444a7",
+      "size": 733,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/4eb1200b339b2f96d7576166df44804a048444a7"
     },
     {
       "path": "README.md",
