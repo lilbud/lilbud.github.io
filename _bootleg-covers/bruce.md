@@ -9,6 +9,7 @@ header:
   teaser: /assets/img/graphics/bootleg-covers/artists/bruce.jpg
 years:
  - 1970
+ - 1972
  - 1973
  - 1974
  - 1975
