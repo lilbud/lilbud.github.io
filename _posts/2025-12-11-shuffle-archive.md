@@ -10,6 +10,8 @@ header:
 
 Note: All of the posts I've managed to save can be found at the above repo. They are in JSON format and aren't very readable. On the releases page you can grab an older JSON -> Markdown conversion I did.
 
+3/16 Note: As of 3/16/26, all posts have been converted to Markdown, and are visible in the repos `archive/posts` folder. Some formatting errors remain from the bookshelf collection process, and will be fixed overtime.
+
 # Intro
 On [October 5, 2025](https://web.archive.org/web/20251006010614/https://estreetshuffle.com/index.php/2025/10/05/where-you-going-where-you-from/), Ken Rosen announced that his *E Street Shuffle* website would be ceasing operation in early 2026. His primary reason is that he hasn't written any essays for the site in well over a year (last one being September 2024.) For the most part, the only posts on the site have been his "This Day in Bruce History" posts, subtitled "Kingdom of Days". The shutdown announcement confirmed that those would be the only posts getting updated until the day comes.
 
