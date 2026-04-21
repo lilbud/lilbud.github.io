@@ -81,11 +81,17 @@ This search has been expanded and now searches all notes. You'd think this was t
 ## Event Detail
 The page in general has seen a number of changes in both layout and design.
 
-<a href="/assets/img/blog/2025-12-03-databruce-update/event_page_desktop_before.png"><img src="/assets/img/blog/2025-12-03-databruce-update/event_page_desktop_before.png"/></a>
-<a href="/assets/img/blog/2025-12-03-databruce-update/event_page_desktop_after.png"><img src="/assets/img/blog/2025-12-03-databruce-update/event_page_desktop_after.png"/></a>
+<figure class="half">
+    <a href="/assets/img/blog/2025-12-03-databruce-update/event_page_desktop_before.png"><img src="/assets/img/blog/2025-12-03-databruce-update/event_page_desktop_before.png"/></a>
+    <a href="/assets/img/blog/2025-12-03-databruce-update/event_page_desktop_after.png"><img src="/assets/img/blog/2025-12-03-databruce-update/event_page_desktop_after.png"/></a>
+<figure>
 
 Firstly, I fixed an issue which caused the table to push everything off screen on mobile. I don't know why this was, as all pages should (and many did) condense to the smaller width, except for this one apparently. I think it had something to do with the setlist table and wrapping.
-[event detail mobile before and after]
+
+<figure class="half">
+    <a href="/assets/img/blog/2025-12-03-databruce-update/event_page_mobile_before.png"><img src="/assets/img/blog/2025-12-03-databruce-update/event_page_mobile_before.png"/></a>
+    <a href="/assets/img/blog/2025-12-03-databruce-update/event_page_mobile_after.png"><img src="/assets/img/blog/2025-12-03-databruce-update/event_page_mobile_after.png"/></a>
+<figure>
 
 Badges are now used to highlight songs with certain attributes. So far these include: Instrumental, No Bruce, Premieres, and Sign Requests. This can be seen in the preview images above.
 
