@@ -5,6 +5,7 @@ permalink: /projects/graphics/bootleg-covers
 toc: false
 classes: wide
 excerpt: "Covers for Concert Tapes"
+featured: true
 header:
   overlay_image: /assets/img/blog/2025-03-31-bootlegcovers/header.jpg
   teaser: /assets/img/blog/2025-03-31-bootlegcovers/header.jpg

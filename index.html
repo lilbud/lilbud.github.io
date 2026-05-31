@@ -7,9 +7,18 @@ classes: wide
 ---
 
 # Welcome
+
 Here is where you'll find my various projects/things I've done. Working on getting as much as I can moved here.
 
 Up top you'll find links to my projects, as well as a blog of sorts with different pieces of writing.
+
+<h3 class="archive__subtitle">Featured Posts</h3>
+
+{%- assign fp = site.posts | where: 'featured', true -%}
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html entries=fp type=entries_layout %}
+</div>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
