@@ -108,7 +108,7 @@ For my version, I used [Bootstrap](https://getbootstrap.com/) for the frontend. 
 
 With just Bootstrap and peeking around in Dev Tools, I had a fairly convincing copy of the site within a few hours. Hardest parts being the post title card, which does some odd things with responsive sizing. As well as the comment section, which was tricky to figure out with the sizing and padding of nested comments. Everything else was fairly seamless.
 
-[show post card and comments images]
+{% include figure popup=true image_path="/assets/img/blog/2026-05-30-shuffle-archive/comments.png" alt="Showing the Comments Section" caption="Unironically one of the hardest parts of the site" %}
 
 There were a few things I either couldn't recreate or opted to leave out. The sidebar on most pages I felt wasn't needed, as it has two slideshow elements of recent posts (recent as in Sept 2024). The calendar also felt a bit unnecessary and clunky. Those were replaced with a category select dropdown, as well as an author dropdown. On post pages, the sidebar has been removed and the post is centered and fills more space now.
 
