@@ -1,6 +1,6 @@
 {
-  "sha": "6680c9012d5b42ff673f875c0940f26e11a18c0e",
-  "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/6680c9012d5b42ff673f875c0940f26e11a18c0e",
+  "sha": "a2db6d9af53e080ebe82b015b0d9f21f1da2bd65",
+  "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/a2db6d9af53e080ebe82b015b0d9f21f1da2bd65",
   "tree": [
     {
       "path": ".github",
@@ -109,8 +109,8 @@
       "path": "bruce",
       "mode": "040000",
       "type": "tree",
-      "sha": "314d150ed714925819f23e460a30655661b0d045",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/314d150ed714925819f23e460a30655661b0d045"
+      "sha": "29c92c8d4da0957bcd60e263adbb450eaa7a9ce6",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/29c92c8d4da0957bcd60e263adbb450eaa7a9ce6"
     },
     {
       "path": "bruce/MISTRAL.TTF",
@@ -171,8 +171,8 @@
       "path": "bruce/covers",
       "mode": "040000",
       "type": "tree",
-      "sha": "7312b9d263d2ce33b338058d68bee455210a7b28",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/7312b9d263d2ce33b338058d68bee455210a7b28"
+      "sha": "541e29971a66436f5c95d8014d2be6060cebc805",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/541e29971a66436f5c95d8014d2be6060cebc805"
     },
     {
       "path": "bruce/covers/1970",
@@ -859,8 +859,8 @@
       "path": "bruce/covers/1978",
       "mode": "040000",
       "type": "tree",
-      "sha": "a46141bdc81b59b9e9c93513fa0537411c4c2726",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/a46141bdc81b59b9e9c93513fa0537411c4c2726"
+      "sha": "ab60b3644bc4cca1c4c90316d3874b09c49293d0",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/ab60b3644bc4cca1c4c90316d3874b09c49293d0"
     },
     {
       "path": "bruce/covers/1978/1978-05-23.jpg",
@@ -1085,6 +1085,22 @@
       "sha": "c5ca83cf131e7410cdf2d2a63b70d6f046bb81ee",
       "size": 107461,
       "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/c5ca83cf131e7410cdf2d2a63b70d6f046bb81ee"
+    },
+    {
+      "path": "bruce/covers/1978/1978-09-01.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42eaffdad9239638b4bf7b252dd0312d345721c7",
+      "size": 573066,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/42eaffdad9239638b4bf7b252dd0312d345721c7"
+    },
+    {
+      "path": "bruce/covers/1978/1978-09-03.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7bd4a120186b561ae6d6b31fc682af5000b34a0",
+      "size": 1154569,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/d7bd4a120186b561ae6d6b31fc682af5000b34a0"
     },
     {
       "path": "bruce/covers/1978/1978-09-06.jpg",
@@ -1520,8 +1536,8 @@
       "path": "bruce/covers/1981",
       "mode": "040000",
       "type": "tree",
-      "sha": "512400733af93a4cea30304e98e1b3250985f2fc",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/512400733af93a4cea30304e98e1b3250985f2fc"
+      "sha": "1b82756ff2829c1581b149281e73c0ebe59e4c5c",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/1b82756ff2829c1581b149281e73c0ebe59e4c5c"
     },
     {
       "path": "bruce/covers/1981/1981-01-20.jpg",
@@ -1658,6 +1674,14 @@
       "sha": "dca4505cf80983c9cdff1cb024fe7b8a6495902d",
       "size": 282058,
       "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/dca4505cf80983c9cdff1cb024fe7b8a6495902d"
+    },
+    {
+      "path": "bruce/covers/1981/1981-05-08.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faa13d6e9a83e65cdad2f3c875bc5753079f3514",
+      "size": 809728,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/faa13d6e9a83e65cdad2f3c875bc5753079f3514"
     },
     {
       "path": "bruce/covers/1981/1981-05-11.jpg",
@@ -1895,8 +1919,8 @@
       "path": "bruce/covers/1984",
       "mode": "040000",
       "type": "tree",
-      "sha": "df72ebc4e20322ce151b2db021e08ee86bd5607d",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/df72ebc4e20322ce151b2db021e08ee86bd5607d"
+      "sha": "7abe8f1734de59bd63e5922c5319d9711f122a49",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/7abe8f1734de59bd63e5922c5319d9711f122a49"
     },
     {
       "path": "bruce/covers/1984/1984-06-29.jpg",
@@ -2195,6 +2219,14 @@
       "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/f0106584b334512626778222786b58b33eabec4e"
     },
     {
+      "path": "bruce/covers/1984/1984-11-16.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a259ffc95c78cd3889f44a209db1b85ae9323e21",
+      "size": 778829,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/a259ffc95c78cd3889f44a209db1b85ae9323e21"
+    },
+    {
       "path": "bruce/covers/1984/1984-11-19.jpg",
       "mode": "100644",
       "type": "blob",
@@ -2468,8 +2500,8 @@
       "path": "bruce/covers/1988",
       "mode": "040000",
       "type": "tree",
-      "sha": "e321bbc5a7095c08e948f0e25c5af843b60b7df4",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/e321bbc5a7095c08e948f0e25c5af843b60b7df4"
+      "sha": "0150a223dc9512e55a115763c87e4cff227f373e",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/0150a223dc9512e55a115763c87e4cff227f373e"
     },
     {
       "path": "bruce/covers/1988/1988-01-28.jpg",
@@ -2478,6 +2510,14 @@
       "sha": "24c4e50be6629737b852005753a88f8d54f14855",
       "size": 156877,
       "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/24c4e50be6629737b852005753a88f8d54f14855"
+    },
+    {
+      "path": "bruce/covers/1988/1988-02-25.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "686a2e3cfc1ced32ed1277d738f30234621ddd22",
+      "size": 571343,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/686a2e3cfc1ced32ed1277d738f30234621ddd22"
     },
     {
       "path": "bruce/covers/1988/1988-03-20.jpg",
@@ -2502,6 +2542,22 @@
       "sha": "802d65cc8726ab82c7478f47502d57c484e8230c",
       "size": 164719,
       "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/802d65cc8726ab82c7478f47502d57c484e8230c"
+    },
+    {
+      "path": "bruce/covers/1988/1988-05-02.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6160a848e8ceeae2c0836c74825d37ac5497ccff",
+      "size": 390887,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/6160a848e8ceeae2c0836c74825d37ac5497ccff"
+    },
+    {
+      "path": "bruce/covers/1988/1988-05-03.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60fb5016fe26bad07ccd5e5c8195c698605d259d",
+      "size": 417778,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/60fb5016fe26bad07ccd5e5c8195c698605d259d"
     },
     {
       "path": "bruce/covers/1988/1988-05-23.jpg",
@@ -2900,8 +2956,8 @@
       "path": "bruce/covers/2002",
       "mode": "040000",
       "type": "tree",
-      "sha": "55aad50f4a64130075e1fe510a0e5bb6522385a3",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/55aad50f4a64130075e1fe510a0e5bb6522385a3"
+      "sha": "ee36fe39ae4975b7742aa98d19350e95af80c911",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/ee36fe39ae4975b7742aa98d19350e95af80c911"
     },
     {
       "path": "bruce/covers/2002/2002-08-05.jpg",
@@ -2936,12 +2992,36 @@
       "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/f31950f49cf96e712e56ac96d9ba7e17658d77f7"
     },
     {
+      "path": "bruce/covers/2002/2002-10-14.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32e5da9252bea8a68fff34396d2f46fc2b1417d9",
+      "size": 957885,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/32e5da9252bea8a68fff34396d2f46fc2b1417d9"
+    },
+    {
+      "path": "bruce/covers/2002/2002-10-18.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1384ad319775c9500a2b3545d3fbbd7e12b91c4d",
+      "size": 592452,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/1384ad319775c9500a2b3545d3fbbd7e12b91c4d"
+    },
+    {
       "path": "bruce/covers/2002/2002-10-20.jpg",
       "mode": "100644",
       "type": "blob",
       "sha": "2427b6b8d1918732fa1bc27a0fe84b043b7e2fd7",
       "size": 252674,
       "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/2427b6b8d1918732fa1bc27a0fe84b043b7e2fd7"
+    },
+    {
+      "path": "bruce/covers/2002/2002-10-27.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1e40f00f2bd1e52bf972b47418e6decf073c0b6",
+      "size": 707088,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/e1e40f00f2bd1e52bf972b47418e6decf073c0b6"
     },
     {
       "path": "bruce/covers/2002/2002-11-16.jpg",
@@ -2963,8 +3043,8 @@
       "path": "bruce/covers/2003",
       "mode": "040000",
       "type": "tree",
-      "sha": "c5f4eba65b7645593074799ca45b91afc1932f7f",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/c5f4eba65b7645593074799ca45b91afc1932f7f"
+      "sha": "ddaa480b9aa18b3e13b46b85f4924b80f5553583",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/ddaa480b9aa18b3e13b46b85f4924b80f5553583"
     },
     {
       "path": "bruce/covers/2003/2003-02-19.jpg",
@@ -3061,6 +3141,14 @@
       "sha": "6b39ede9378f7eeeafa83dbf5886007a9c6fc7fd",
       "size": 194446,
       "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/6b39ede9378f7eeeafa83dbf5886007a9c6fc7fd"
+    },
+    {
+      "path": "bruce/covers/2003/2003-09-20.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "291d234f1a0a85dae803684f28aedcbdb870e5d9",
+      "size": 596720,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/291d234f1a0a85dae803684f28aedcbdb870e5d9"
     },
     {
       "path": "bruce/covers/2003/2003-09-21.jpg",
@@ -5437,8 +5525,8 @@
       "path": "bruce/covers/2026",
       "mode": "040000",
       "type": "tree",
-      "sha": "cce3dc90fc0b2a089bfcc8a40c5bdf17c031f380",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/cce3dc90fc0b2a089bfcc8a40c5bdf17c031f380"
+      "sha": "d2a056a19cefa8d3952bac6c9bc1bdf90ecf4599",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/d2a056a19cefa8d3952bac6c9bc1bdf90ecf4599"
     },
     {
       "path": "bruce/covers/2026/2026-03-31.jpg",
@@ -5601,12 +5689,12 @@
       "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/3f0dfa2f06595bc0d9c10703a9ec50195eb36252"
     },
     {
-      "path": "bruce/covers/2026/2026-05-30.jpg",
+      "path": "bruce/covers/2026/2026-05-27_1.jpg",
       "mode": "100644",
       "type": "blob",
-      "sha": "c6dccdaf3ca2951609d9b22def48b3ad046bb5db",
-      "size": 739818,
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/c6dccdaf3ca2951609d9b22def48b3ad046bb5db"
+      "sha": "53203f74f531683aba2e09bc1fa8960756b0b91f",
+      "size": 674356,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/53203f74f531683aba2e09bc1fa8960756b0b91f"
     },
     {
       "path": "bruce/covers/2026/2026-05-30_1.jpg",
@@ -5615,6 +5703,30 @@
       "sha": "9ad2114fc8d4bc0adb2470f70fcf87d7623e19c6",
       "size": 736264,
       "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/9ad2114fc8d4bc0adb2470f70fcf87d7623e19c6"
+    },
+    {
+      "path": "bruce/covers/2026/2026-05-30_2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acfecb106c8607f5cba648f5f67793eb4310d257",
+      "size": 715004,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/acfecb106c8607f5cba648f5f67793eb4310d257"
+    },
+    {
+      "path": "bruce/covers/2026/2026-05-30_3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b7d552277d3f1a6ad5b28728d3d1b4ad1597f44",
+      "size": 718161,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/4b7d552277d3f1a6ad5b28728d3d1b4ad1597f44"
+    },
+    {
+      "path": "bruce/covers/2026/2026-05-30_4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6dccdaf3ca2951609d9b22def48b3ad046bb5db",
+      "size": 739818,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/c6dccdaf3ca2951609d9b22def48b3ad046bb5db"
     },
     {
       "path": "bruce/covers/info.txt",
