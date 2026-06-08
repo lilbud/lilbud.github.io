@@ -4,8 +4,8 @@ tags: projects music matrix bruce
 excerpt: "An IEM/AUD mix of Bruce's 2003 benefit for Doubletake Magazine"
 tags: projects music
 header:
-  overlay_image: /assets/img/blog/2023-05-17-somerville/header.jpg
-  teaser: /assets/img/blog/2023-05-17-somerville/header.jpg
+  overlay_image: https://raw.githubusercontent.com/lilbud/bootleg_covers/refs/heads/main/bruce/covers/2003/2003-02-19.jpg
+  teaser: https://raw.githubusercontent.com/lilbud/bootleg_covers/refs/heads/main/bruce/covers/2003/2003-02-19.jpg
 ---
 
 [Watch on Youtube](https://www.youtube.com/watch?v=T8iyCKA8nJA)
