@@ -14,16 +14,17 @@ header:
       url: "https://docs.google.com/spreadsheets/d/1Rc8c3gvKWHdAo9bx9Fkl6Dg5RlF5ENr5dqpb_C_uBZs/edit?usp=sharing"
 ---
 
-{% include figure popup=true image_path="/assets/img/blog/2025-04-06-backstreets-mag-archive/logo.png" alt="" caption="" %}
+{% include figure popup=true img1="/assets/img/blog/2025-04-06-backstreets-mag-archive/logo.png" alt="" caption="" %}
 
 **UPDATES**
+
 - 2025-04-10: changed IA link above to go to a list of every issue, rather than the search page.
 - 2026-01-31: going through old posts and fixing all images to use pop-ups instead of links. Easier on my end.
 
 **Project Start:** March 26, 2025<br>**Project End:** April 6, 2025
 
 ## History of Backstreets
-It's late 2013. Somewhere in North Carolina, the folks at Backstreets Magazine have just published issue #91, paying tribute to Clarence Clemons who passed away two years prior. Little did anyone know at the time, but this would be the final issue of Backstreets Magazine, ending a 43 year run that started when Charles Cross was handing out the first issue at Bruce's show in Seattle on October 24, 1980. 
+It's late 2013. Somewhere in North Carolina, the folks at Backstreets Magazine have just published issue #91, paying tribute to Clarence Clemons who passed away two years prior. Little did anyone know at the time, but this would be the final issue of Backstreets Magazine, ending a 43 year run that started when Charles Cross was handing out the first issue at Bruce's show in Seattle on October 24, 1980.
 
 Backstreets Magazine is an interesting publication, it was one of the first magazines dedicated to Bruce Springsteen (being beaten to the punch by Thunder Road mag in 1978), and quite possibly the most well known. It acts as a time capsule of sorts, having "live in the moment" reactions to nearly every show and album release from 1980-2013. It is a treasure trove of interviews, reviews, commentary, opinions, and a written record of the relationship Bruce has with his fans.
 
@@ -47,7 +48,7 @@ Garry responded the next day, having uploaded scans of 78 issues, over 3/4 of th
 
 This left 13 issues to find, which I again figured this would take a while, and once again I was almost immediately proven wrong. A member named Hey_Eddie showed up with a scan of issue 44, BigD popped up with 45, 48, 56, and 57, although these issues were later rescanned by Ed.
 
-At this point, I realized that at this pace there was a very real possibility of completing the entire set. 
+At this point, I realized that at this pace there was a very real possibility of completing the entire set.
 
 Over the next few days, Eddie worked on filling in the gaps with brand new scans he did just for this project. If I thanked him once I've done so a dozen times, but I'm thanking him again. He went above and beyond even my wildest expectations.
 
@@ -69,18 +70,19 @@ Once the issues were ready, they were then uploaded to both MEGA and Archive.org
 I really want to thank Eddie for scanning and even rescanning a number of issues. We had the shared goal of making this as good as it could possibly be. Because of his efforts, these are the highest quality versions of these issues available anywhere on the internet.
 
 ## Comparisons
-Real quick, I wanted to show a before and after of sorts. Comparing a few early scans to their final versions included in this project. 
+Real quick, I wanted to show a before and after of sorts. Comparing a few early scans to their final versions included in this project.
 
 First up is issue 47. The original was provided by Garry, and a rescan was done by Eddie. This mostly shows the quality increase that the Epson V600 provides.
 
-{% include figure popup=true image_path="/assets/img/blog/2025-04-06-backstreets-mag-archive/issue47-comparison.jpg" alt="" caption="" %}
+{% include figure popup=true img1="/assets/img/blog/2025-04-06-backstreets-mag-archive/issue47-comparison.jpg" alt="" caption="" %}
 
 Next is a quick before and after of issue 73. Which Eddie scanned and then rescanned after dialing in his process.
 
-{% include figure popup=true image_path="/assets/img/blog/2025-04-06-backstreets-mag-archive/issue73-compare.jpg" alt="" caption="" %}
+{% include figure popup=true img1="/assets/img/blog/2025-04-06-backstreets-mag-archive/issue73-compare.jpg" alt="" caption="" %}
 
 ## User Contributions
 Below I'll list each users contributions:
+
 - Eddie:
     - Issues: 44, 60, 63-65, 73, 77-78, 80, 91
     - Rescans: 45, 47-48, 52, 54, 55-57, 59, 67, 70-71, 74-75, 79

@@ -3,9 +3,11 @@ title: Blog
 excerpt: "Non-project blog posts"
 toc: false
 classes: wide
-permalink: /blog/
+permalink: /writing/
 ---
 
 {% for post in site.posts %}
-  {% include archive-single.html %}
+  {% if post.tags contains 'writing' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}

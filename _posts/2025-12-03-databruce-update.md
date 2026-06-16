@@ -21,17 +21,11 @@ I'll cover everything below, so let's get into it.
 
 ## Event Calendar
 
-<figure>
-    <a href="/assets/img/blog/2025-12-03-databruce-update/calendar.png"><img src="/assets/img/blog/2025-12-03-databruce-update/calendar.png"></a>
-    <figcaption>September 1978, his best month.</figcaption>
-</figure>
+{% include figure popup=true img1="/assets/img/blog/2025-12-03-databruce-update/calendar.png" alt="" caption="September 1978, his best month." %}
 
 One thing on my to-do list has been a calendar to show events by month/year. It was a feature I liked from Jerrybase, and like most of the site, I wanted to do my own. Originally I wasn't sure how to go about it, but eventually found a plugin that could do it. It was much simpler than I had anticipated, which is a trend for me going all the way back to the development of Brucebot. Where I won't add or will put off adding something due to thinking it will be very difficult, only to bang it out in no time flat. Time is a flat circle I suppose.
 
-<figure>
-    <a href="/assets/img/blog/2025-12-03-databruce-update/brucebot.png"><img src="/assets/img/blog/2025-12-03-databruce-update/brucebot.png"></a>
-    <figcaption>Note the timestamps being only 6hrs apart</figcaption>
-</figure>
+{% include figure popup=true img1="/assets/img/blog/2025-12-03-databruce-update/brucebot.png" alt="" caption="Note the timestamps being only 6hrs apart" %}
 
 The calendar displays both events, as well as event runs (consecutive events by same band at same venue).
 
@@ -58,21 +52,13 @@ night: matches the word "night" anywhere in text.
 ^night: matches text that begins with "night".
 ```
 
-<figure class="half">
-    <a href="/assets/img/blog/2025-12-03-databruce-update/search-noregex.png"><img src="/assets/img/blog/2025-12-03-databruce-update/search-noregex.png"></a>
-    <a href="/assets/img/blog/2025-12-03-databruce-update/search-regex.png"><img src="/assets/img/blog/2025-12-03-databruce-update/search-regex.png"></a>
-    <figcaption>Difference between text and regex search</figcaption>
-</figure>
+{% include figurehalf img1="/assets/img/blog/2026-03-02-databruce-1.14/column-control.png" img2="/assets/img/blog/2025-12-03-databruce-update/search-regex.png" alt="New Sorting Menu" caption="New Sorting Menu" %}
 
 Additionally, all event tables have been updated to be consistent and show the same info regardless of page.
 
 Tables are also now mobile friendly, collapsing the rows on small screens by default. The hidden rows can be viewed by tapping the row. An arrow will also indicate the rows that can be opened, as well as if its open or not.
 
-<figure class="half">
-    <a href="/assets/img/blog/2025-12-03-databruce-update/mobile-table-collapsed.png"><img src="/assets/img/blog/2025-12-03-databruce-update/mobile-table-collapsed.png"></a>
-    <a href="/assets/img/blog/2025-12-03-databruce-update/mobile-table-open.png"><img src="/assets/img/blog/2025-12-03-databruce-update/mobile-table-open.png"></a>
-    <figcaption>Table rows collapsed and open</figcaption>
-</figure>
+{% include figurehalf img1="/assets/img/blog/2025-12-03-databruce-update/mobile-table-collapsed.png" img2="/assets/img/blog/2025-12-03-databruce-update/mobile-table-open.png" alt="" caption="Table rows collapsed and open" %}
 
 # Page Specific Changes
 
@@ -93,14 +79,14 @@ The page in general has seen a number of changes in both layout and design.
 <figure class="half">
     <a href="/assets/img/blog/2025-12-03-databruce-update/event_page_desktop_before.png"><img src="/assets/img/blog/2025-12-03-databruce-update/event_page_desktop_before.png"/></a>
     <a href="/assets/img/blog/2025-12-03-databruce-update/event_page_desktop_after.png"><img src="/assets/img/blog/2025-12-03-databruce-update/event_page_desktop_after.png"/></a>
-<figure>
+</figure>
 
 Firstly, I fixed an issue which caused the table to push everything off screen on mobile. I don't know why this was, as all pages should (and many did) condense to the smaller width, except for this one apparently. I think it had something to do with the setlist table and wrapping.
 
 <figure class="half">
     <a href="/assets/img/blog/2025-12-03-databruce-update/event_page_mobile_before.png"><img src="/assets/img/blog/2025-12-03-databruce-update/event_page_mobile_before.png"/></a>
     <a href="/assets/img/blog/2025-12-03-databruce-update/event_page_mobile_after.png"><img src="/assets/img/blog/2025-12-03-databruce-update/event_page_mobile_after.png"/></a>
-<figure>
+</figure>
 
 Badges are now used to highlight songs with certain attributes. So far these include: Instrumental, No Bruce, Premieres, and Sign Requests. This can be seen in the preview images above.
 
@@ -118,10 +104,7 @@ Bruce is now listed as part of his many early "pre-E Street" bands. Including: C
 
 Some new previously unknown events have been added for 1966 and 1967. Recently, the [Springsteen Archives at Monmouth](https://springsteenarchives.org/curatorial-corner-he-must-be-from-the-fort/) posted a pic of a notebook spread containing a list of Castiles shows, many of which were unknown. Some were known, but the exact date was unknown. This adds 12 shows to 1966 and 8 shows to 1967. The notebook definitely covers more as visible by pages bleeding through, however only a single spread was posted.
 
-<figure>
-    <a href="https://springsteenarchives.org/wp-content/uploads/sites/1218/2025/11/Castiles-Jobs__mkrajnak_041025_0V2A9679.jpg"><img src="https://springsteenarchives.org/wp-content/uploads/sites/1218/2025/11/Castiles-Jobs__mkrajnak_041025_0V2A9679.jpg"></a>
-    <figcaption>The notebook in question, which can be found at the link above</figcaption>
-</figure>
+{% include figure popup=true img1="https://springsteenarchives.org/wp-content/uploads/sites/1218/2025/11/Castiles-Jobs__mkrajnak_041025_0V2A9679.jpg" alt="" caption="The notebook in question, which can be found at the link above" %}
 
 # Conclusion
 

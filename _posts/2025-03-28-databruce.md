@@ -11,7 +11,8 @@ header:
       url: "https://github.com/lilbud/databruce"
 ---
 
-Click the button above to view the project on Github.
+**Update: June 2026**
+Since writing this post, the website version of the site has been completed and can be found [here](https://www.databruce.com/). Info about the site can be found at the sites "about" page. The original version of this post from March 2025 has been left untouched and is below.
 
 # Intro
 Databruce is a database of Bruce Springsteen's performing career. Initially in SQLite, and then moved over to PostgreSQL to make it easier to interface with Heroku (which I use to host the associated Discord bot.)
@@ -19,7 +20,7 @@ Databruce is a database of Bruce Springsteen's performing career. Initially in S
 ## History
 Below are blog posts detailing the history of this project. It has gone through multiple iterations, broadly referred to as "version 1" and "version 2". I wrote extensive pieces on the history of each of these versions. The short version is that V1 was an SQLite database, that I worked on from March 2023 until about January 2024. V2 was redone basically from scratch, using PostgreSQL and much better tools.
 
-The [first one]({% post_url 2023-09-04-databruce %}) covers "Version 1" of the database, from March-September 2023. 
+The [first one]({% post_url 2023-09-04-databruce %}) covers "Version 1" of the database, from March-September 2023.
 
 The [second one]({% post_url 2024-08-19-databruce %}) covers "Version 2", started in January 2024 and going up to August 2024.
 

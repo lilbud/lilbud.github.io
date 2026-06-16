@@ -17,7 +17,7 @@ But, what if it didn't have to meet that fate?
 
 # Announcing *The E Street Shuffle Archive*
 
-Link: <https://lilbud.github.io/shuffle/>
+Link: https://lilbud.github.io/shuffle/
 
 *The E Street Shuffle Archive* (as the name suggests) is an archive of *E Street Shuffle*. One that reproduces the layout/function of the site as well as the reproducing all of the content from ESS before it shuts down for good.
 
@@ -108,7 +108,7 @@ For my version, I used [Bootstrap](https://getbootstrap.com/) for the frontend. 
 
 With just Bootstrap and peeking around in Dev Tools, I had a fairly convincing copy of the site within a few hours. Hardest parts being the post title card, which does some odd things with responsive sizing. As well as the comment section, which was tricky to figure out with the sizing and padding of nested comments. Everything else was fairly seamless.
 
-{% include figure popup=true image_path="/assets/img/blog/2026-05-30-shuffle-archive/comments.png" alt="Showing the Comments Section" caption="Unironically getting this working was one of the hardest parts of the project" %}
+{% include figure popup=true img1="/assets/img/blog/2026-05-30-shuffle-archive/comments.png" alt="Showing the Comments Section" caption="Unironically getting this working was one of the hardest parts of the project" %}
 
 There were a few things I either couldn't recreate or opted to leave out. The sidebar on most pages I felt wasn't needed, as it has two slideshow elements of recent posts (recent as in Sept 2024). The calendar also felt a bit unnecessary and clunky. Those were replaced with a category select dropdown, as well as an author dropdown. On post pages, the sidebar has been removed and the post is centered and fills more space now.
 
@@ -128,7 +128,7 @@ For most posts, there was only one version, easy enough. In the case of those wi
 
 In the end, I had 2,083 posts, with the following split:
 
-{% include figure popup=true image_path="/assets/img/blog/2026-05-30-shuffle-archive/category_dropdown.png" alt="Dropdown Showing List of Categories" caption="The final list of categories" %}
+{% include figure popup=true img1="/assets/img/blog/2026-05-30-shuffle-archive/category_dropdown.png" alt="Dropdown Showing List of Categories" caption="The final list of categories" %}
 
 With only 2 exceptions that I know of, this is every single post that was present on *E Street Shuffle* prior to the shutdown and (unfortunate) mass deletion of content that started in November 2025 and is still ongoing.
 
@@ -170,7 +170,7 @@ I had first heard of [Hugo](https://gohugo.io/) a while back. Like Jekyll, it is
 
 Since my core issue with Jekyll was the slow build times, I didn't need much convincing. Even promising to halve the build time would've been enough, or hell, actually finishing a build at all.
 
-{% include figure popup=true image_path="/assets/img/blog/2026-05-30-shuffle-archive/hugo.png" alt="Hugo, Build Your Site in an Hour" %}
+{% include figure popup=true img1="/assets/img/blog/2026-05-30-shuffle-archive/hugo.png" alt="Hugo, Build Your Site in an Hour" %}
 
 While yes it meant having to learn an entirely new system/language and likely having to redo most of my work, the potential improvements to build speed meant it would be worth it in the long run.
 
@@ -178,11 +178,7 @@ Getting started with Hugo, after the initial setup and ensuring the server ran c
 
 My first direct comparison between Jekyll and Hugo was just to test how long it took to build and get the server up and running. Jekyll was limited to the first 100 posts, and Hugo (not having a similar option) I copied over the same 100 posts. I thought maybe it would be a minute faster, maybe two if I was lucky, but I didn't want to get my hopes up.
 
-<figure class="half">
-    <a href="/assets/img/blog/2026-05-30-shuffle-archive/jekyll-test-build.png"><img src="/assets/img/blog/2026-05-30-shuffle-archive/jekyll-test-build.png"></a>
-    <a href="/assets/img/blog/2026-05-30-shuffle-archive/hugo-test-build.png"><img src="/assets/img/blog/2026-05-30-shuffle-archive/hugo-test-build.png"></a>
-    <figcaption>A major improvement</figcaption>
-</figure>
+{% include figurehalf img1="/assets/img/blog/2026-05-30-shuffle-archive/jekyll-test-build.png" img2="/assets/img/blog/2026-05-30-shuffle-archive/hugo-test-build.png" alt="" caption="A major improvement" %}
 
 Three. Seconds.
 
@@ -195,7 +191,7 @@ Migrating from Jekyll to Hugo was a process that (I assumed) would be a long and
 Hugo also has some features I was able to take advantage of that I wasn't able to with Jekyll. For example:
 
 - **Similar Posts:** Hugo has a [feature](https://gohugo.io/content-management/related-content/) to load posts similar to the one you're reading. Jekyll has this, but since it isn't an "officially supported" plugin by GH Pages, you are forced to build your site locally and push it to the repo. Considering that I was unable to build even a portion of the site in Jekyll in a reasonable time, this presented an obvious issue.
-- **Link Verification:** When building the site, any internal links with the `{{< ref POST_URL >}}` tag are checked to ensure they exist and will stop the build if they don't. It caught about a dozen or so links that didn't exist (or did, but at a different URL), and I was able to fix those. Probably better than having to fix them piecemeal as people reported them.
+- **Link Verification:** When building the site, any internal links with the {% raw %}`{{< ref POST_URL >}}`{% endraw %} tag are checked to ensure they exist and will stop the build if they don't. It caught about a dozen or so links that didn't exist (or did, but at a different URL), and I was able to fix those. Probably better than having to fix them piecemeal as people reported them.
 
 I obviously didn't get too deep into Hugo and all it can do. I only switched over to solve a problem, and used the bare essentials to do so. Hugo obviously has a ton more that it can do, and I might one day get around to that. But I really wanted to wrap this project up before it dragged on forever.
 
@@ -205,7 +201,7 @@ After a few days, with a functioning copy of the site. I was once again faced wi
 
 With that, I copied over the remaining posts, held my breath, and ran a full build.
 
-{% include figure popup=true image_path="/assets/img/blog/2026-05-30-shuffle-archive/hugo-full-build.png" alt="Screenshot showing a build time of 52 seconds" caption="52 seconds is a definite improvement over jekyll, which couldn't do the same even if it wanted to." %}
+{% include figure popup=true img1="/assets/img/blog/2026-05-30-shuffle-archive/hugo-full-build.png" alt="Screenshot showing a build time of 52 seconds" caption="52 seconds is a definite improvement over jekyll, which couldn't do the same even if it wanted to." %}
 
 52 seconds. For the entire site with 2,100 posts, 6 or so unique top-level pages, 14 categories and their pages, and 3,500 tags and their pages.
 

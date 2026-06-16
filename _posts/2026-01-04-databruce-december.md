@@ -14,6 +14,7 @@ Welcome to another update post covering changes to Databruce that happened throu
 Not a ton of new changes, mostly small fixes/tweaks to the site. Going forward the format for these will be as follows: listing all of the changes, then covering certain ones in detail if I feel the need to.
 
 **Changes/Additions:**
+
 - Added a ["changelog"](https://github.com/lilbud/django-databruce/blob/main/changelog.md) file to the Github repo, which lists changes/updates. To somewhat organize things, I retroactively added "version" markers. Just like the points, they are made up and don't matter. Smaller groups of updates will be a single point increment, while bigger updates will jump to the next tenth point. Is this the "right way" to do it? absolutely not. Does it work for me? for now yes.
 - Added a "Remember Me" toggle, which should keep you logged into the site for 2 weeks...hopefully.
 - Moved the SearchBuilder to a modal popup. This way it will stay on screen and not be made inaccessible when it is cut off.
@@ -29,20 +30,22 @@ Not a ton of new changes, mostly small fixes/tweaks to the site. Going forward t
 - Fixed links in the event tables not being clickable.
 
 ## SearchBuilder
+
 SearchBuilder is something of a searching "middle ground". Being more powerful than simple text/regex search, but not quite at the level of a dedicated "advanced search".
 
-At times, it is a finicky PITA, and if it wasn't useful I'd have tossed it. But, lacking any better options, I'm stuck with it and all the quirks it contains. One particular quirk was that it would position wherever it felt like, sometimes going way off screen or even being cut off vertically. 
+At times, it is a finicky PITA, and if it wasn't useful I'd have tossed it. But, lacking any better options, I'm stuck with it and all the quirks it contains. One particular quirk was that it would position wherever it felt like, sometimes going way off screen or even being cut off vertically.
 
 Last month, I decided to fix this by moving the SearchBuilder to it's own dedicated popup modal. This way, I have full control over positioning/sizing, and it no longer gets cut off. Some quirks still remain, but it's better than it was. It also now fits a bit better visually with the sites overall design.
 
-{% include figure popup=true image_path="/assets/img/blog/2026-01-04-databruce-december/searchbuilder-before.png" alt="" caption="Original SB popup, taken from DataTables docs." %}
+{% include figure popup=true img1="/assets/img/blog/2026-01-04-databruce-december/searchbuilder-before.png" alt="" caption="Original SB popup, taken from DataTables docs." %}
 
-{% include figure popup=true image_path="/assets/img/blog/2026-01-04-databruce-december/searchbuilder-after.png" alt="" caption="Much better." %}
+{% include figure popup=true img1="/assets/img/blog/2026-01-04-databruce-december/searchbuilder-after.png" alt="" caption="Much better." %}
 
 ## Nugs Releases
-{% include figure popup=true image_path="/assets/img/blog/2026-01-04-databruce-december/first-friday.png" alt="" caption="Popup to filter releases" %}
 
-{% include figure popup=true image_path="/assets/img/blog/2026-01-04-databruce-december/nugs-time.png" alt="" caption="Release Time tooltip" %}
+{% include figure popup=true img1="/assets/img/blog/2026-01-04-databruce-december/first-friday.png" alt="" caption="Popup to filter releases" %}
+
+{% include figure popup=true img1="/assets/img/blog/2026-01-04-databruce-december/nugs-time.png" alt="" caption="Release Time tooltip" %}
 
 A filter has been added to the Nugs table which allows filtering releases based on if they were a "First Friday" release or if they were a "Current Tour" release (High Hopes, River 16, 2023-25).
 
@@ -53,20 +56,18 @@ Additionally, if the time of release is known then it now shows when hovering ov
 Thanks again to Kieran who tracked many of these, with additional ones added by me. Not all are known, so keep that in mind.
 
 ## No More Child Rows
+
 Child Rows is a feature for small screens, primarily mobile. Not all columns can be shown on a small screen, so this would move those to a collapsible row under the main row. Nice feature, but came at the cost of massively slowing down table loading and screen size changes. For reasons unknown, DataTables deletes the child rows when they aren't needed (screen wide enough), and remakes them when they are needed. I assumed this was a bug with DataTables, but it is simply how it works, even if it seems wasteful.
 
 Because of these problems, I removed the child rows and simply adapted the tables to only show the most important rows on mobile/small screens. If I can find a way to have the child rows, *without* requiring the expensive redraw, I'll revisit this in the future.
 
-<figure class="half">
-    <a href="/assets/img/blog/2025-12-03-databruce-update/mobile-table-open.png"><img src="/assets/img/blog/2025-12-03-databruce-update/mobile-table-open.png"></a>
-    <a href="/assets/img/blog/{{ page.url|slugify }}/no-child.png"><img src="/assets/img/blog/{{ page.url|slugify }}/no-child.png"></a>
-    <figcaption>Before and After</figcaption>
-</figure>
+{% include figurehalf img1="/assets/img/blog/2025-12-03-databruce-update/mobile-table-open.png" img2="/assets/img/blog/2025-12-03-databruce-update/no-child.png" alt="" caption="Before and After" %}
 
 ## Setlist Slots
+
 Adding to the previous section, Setlist Slot tables now "fix" the Date/Location columns, and the positions scroll horizontally.
 
-{% include figure popup=true image_path="/assets/img/blog/2026-01-04-databruce-december/setlist-slots.png" alt="" caption="" %}
+{% include figure popup=true img1="/assets/img/blog/2026-01-04-databruce-december/setlist-slots.png" alt="" caption="" %}
 
 ---
 

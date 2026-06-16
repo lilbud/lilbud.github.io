@@ -15,13 +15,13 @@ Unfortunately, I was not at that show. At that time, I hadn't even really listen
 
 Now, four and a half years later, with hundreds of shows under my belt, I am writing this the day after Bob Weir died. It feels weird to hear and even weirder to say. It's something I knew would happen eventually, same goes for all older musicians, but I really thought Bob would play until he literally dropped on stage. It wouldn't surprise me if that was his plan.
 
-Not counting couch touring the 2022 Tour, I only got to see the man live in person once. Dead and Company at Pierre's Good Citizens Ballpark in Philadelphia on June 15, 2023. It was billed as D&Cs "Final Tour", and despite the Sphere it has remained technically true. 
+Not counting couch touring the 2022 Tour, I only got to see the man live in person once. Dead and Company at Pierre's Good Citizens Ballpark in Philadelphia on June 15, 2023. It was billed as D&Cs "Final Tour", and despite the Sphere it has remained technically true.
 
 At the time I had only seriously been listening to the Dead for a year or so, and I knew I had to be there as (barring acts of God) it was going to be my last chance as I'm not exactly Sphere rich. Managed to talk the powers that be into scoring tickets, section 128, row 25, seats 5-8. Bit far, but getting a great view of the stage and lights.
 
-{% include figure popup=true image_path="/assets/img/blog/2026-01-11-bobby-weir/deadco.jpg" alt="" caption="During Cumberland Blues, an absolute ripper" %}
+{% include figure popup=true img1="/assets/img/blog/2026-01-11-bobby-weir/deadco.jpg" alt="" caption="During Cumberland Blues, an absolute ripper" %}
 
-The show was more than I could've asked for. I have a tendency to stumble my way into seeing "brag worthy" shows. Having seen Bruce's longest US show with a truly monster setlist, even if most of it went over my head. This was one of those shows, getting many of my favorites like Brown Eyed Women, an excellent Estimated > Eyes, Standing on the Moon, and Ripple. Even getting to do the Not Fade Away chant during the encore break. I can even proudly say that I got the last Dark Star > El Paso, confusing the hell out of my family with how excited I got seeing Bobby pick up the acoustic. Standing on the Moon was simply stunning, Bobby taking the vocals gave the song a whole new meaning. 
+The show was more than I could've asked for. I have a tendency to stumble my way into seeing "brag worthy" shows. Having seen Bruce's longest US show with a truly monster setlist, even if most of it went over my head. This was one of those shows, getting many of my favorites like Brown Eyed Women, an excellent Estimated > Eyes, Standing on the Moon, and Ripple. Even getting to do the Not Fade Away chant during the encore break. I can even proudly say that I got the last Dark Star > El Paso, confusing the hell out of my family with how excited I got seeing Bobby pick up the acoustic. Standing on the Moon was simply stunning, Bobby taking the vocals gave the song a whole new meaning.
 
 > Standing on the moon
 > With nothing left to do

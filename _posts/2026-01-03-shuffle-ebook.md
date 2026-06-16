@@ -47,7 +47,7 @@ Additionally, while an offline copy of the site which can be browsed just like t
 
 Also by the time you read this, portions of the site have been deleted. So even if you bother to spend the time running HTTrack and creating your own backup, it is too late and any backups will be incomplete. The backup could also have missing links/content, and if those errors aren't found in time (i.e. before the source pages are deleted/rewritten) then that is a problem as well.
 
-The JSON dump takes up less space (~40MB), but as a format it is much less accessible. JSON is a format for data not for reading, and would require additional steps to convert those files into something actually readable. The code to do so will be provided yes, but that is something of a barrier to entry for most, and wouldn't be fair. 
+The JSON dump takes up less space (~40MB), but as a format it is much less accessible. JSON is a format for data not for reading, and would require additional steps to convert those files into something actually readable. The code to do so will be provided yes, but that is something of a barrier to entry for most, and wouldn't be fair.
 
 So what now? While yes the site is backed up and will be preserved in some form, without it being accessible and (more importantly) readable it doesn't do anyone any good. An "ideal" backup format would have to be easily accessible, not require a ton of storage space, and also be readable like a book. Maybe an *electronic* book of some kind could be created, ideally one that can adapt to different devices/screens. Oh, and be completely free. That all shouldn't be too much to ask right?
 
@@ -55,10 +55,11 @@ So what now? While yes the site is backed up and will be preserved in some form,
 In the posts and emails concerning the "bookshelf collection" (BC), which is a series of physical (limited-run) books that are acting as the "official" archive of the site. Ken responded to questions from readers asking if the books will be made available digitally:
 
 > This was easily the most frequently asked question! Nothing else even comes close. I don't have a happy answer, though. I'd love to, and if I knew of a good solution for it, I'd do it for free.
-> 
+>
 > I know you're probably thinking that if I can print the book, there's probably a PDF source file or something, but there actually isn't. I'm partnering with a developer who's created a proprietary AI-driven platform for converting blogs into beautful books, and it doesn't have the ability to create ebook versions. (It was one of the ﬁrst questions I asked.) If that changes, I'll deﬁnitely let you know...
-> 
+>
 > So for now, the answer is no, but then again that was my answer about transforming the blog into books until about a month ago, so you never know.
+>
 > - Bookshelf Collection Email Newsletter #1 (November 18, 2025).
 
 In the November 28th post titled "Thirty-Seven Days Out", Ken gave a few options for those who've "enjoyed this site’s content and don’t want to lose access to it". Two ebook generator sites were listed but since he hadn't personally used them, they were essentially YMMV. Neither of them is free, both start at $20 and only increase from there with site size and quality. Additionally, much like HTTrack, unless you started this process in November it is too late to create a "complete" book as well over 100 posts have been deleted and countless more have been modified/mangled.
@@ -72,7 +73,7 @@ While I originally intended to simply follow the "official" Bookshelf Collection
 
 The Bookshelf Collection, at time of writing, is expected to be spread out over a few dozen books. By the end of 2026, it's estimated to be 27 books (12 KoD, 8 RotD, 6 Cover Me). This is entirely due to limitations in physical book size and cost. Sure, there could be one massive book with everything, but it would be the size of and cost as much as a small car.
 
-{% include figure popup=true image_path="/assets/img/blog/2026-01-03-shuffle-ebook/book.png" alt="man reading very tall book" caption="The Complete E Street Shuffle Bookshelf Collection, available for the low low price of $3,200 (plus shipping)." %}
+{% include figure popup=true img1="/assets/img/blog/2026-01-03-shuffle-ebook/book.png" alt="man reading very tall book" caption="The Complete E Street Shuffle Bookshelf Collection, available for the low low price of $3,200 (plus shipping)." %}
 
 eBooks are not subject to the same limitations as physical books, so page count isn't a concern. However, I still do plan to break the books up into chunks, just not as many as the physicals.
 
@@ -95,6 +96,7 @@ This category consists of Ken (and other guest bloggers) recapping Bruce shows t
 
 ### Spare Parts (Odds and Ends/Sods)
 There are a number of posts/categories on the site which don't really fit with any of the above books, so this book will be for those posts. Those categories are as follows:
+
 - Spare Parts: Posts having to do with Bruce, but not fitting in any of the above categories.
 - Uncategorized: The bulk of these are blog updates.
 - Hearts of Stone: Only one post covering the work of the little known Bruce Springstone.
@@ -113,6 +115,7 @@ Only once the cleanup is done can the process of compiling the books actually be
 
 # What Will The Final Result Look Like?
 The final "archive" will consist of a few things:
+
 - Several eBooks in the ".epub" format. These can be read on computer using Calibre, on Android/iOS phones, and various eReader devices like Kobo and Kindle.
 - Each post in the JSON file format.
 - A dump of the PostgreSQL database
@@ -123,7 +126,7 @@ Additionally, I might explore other formats like Markdown (which I used for my B
 # When Can The Final Result Be Expected?
 I don't know.
 
-While portions of the archive like the JSON files and the database dump are available now, the rest is in the works. I'm not great at estimating time of projects, which is clear if you've followed any of my other projects. They either get finished at rapid pace or take far longer than I anticipated. My "Radio Nowhere Archive" project was supposed to be finished at the end of 2025, I'm still on 2002. 
+While portions of the archive like the JSON files and the database dump are available now, the rest is in the works. I'm not great at estimating time of projects, which is clear if you've followed any of my other projects. They either get finished at rapid pace or take far longer than I anticipated. My "Radio Nowhere Archive" project was supposed to be finished at the end of 2025, I'm still on 2002.
 
 Because of that, no hard date will be given just yet as I'll inevitably miss it anyway. Updates to the project will be posted here, and also possibly on Bruce forums like GreasyLake. If I had a fancy-schmancy newsletter I'd say sign up, but unfortunately I don't. That might change in the future however, and I'll update if that happens.
 

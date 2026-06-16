@@ -1,0 +1,15 @@
+<figure class="half">
+  <a href="{{ include.img1 | relative_url }}" class="image-popup">
+    <img src="{{ include.img1 | relative_url }}" height="auto" width="auto"
+      alt="{% if include.alt_1 %}{{ include.alt_1 | escape_once }}{% endif %}">
+  </a>
+  <a href="{{ include.img2 | relative_url }}" class="image-popup">
+    <img src="{{ include.img2 | relative_url }}" height="auto" width="auto"
+      alt="{% if include.alt_2 %}{{ include.alt_2 | escape_once }}{% endif %}">
+  </a>
+  {%- if include.caption -%}
+  <figcaption>
+    {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
+  </figcaption>
+  {%- endif -%}
+</figure>
