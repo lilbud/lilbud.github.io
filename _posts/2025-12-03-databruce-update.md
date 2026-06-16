@@ -20,6 +20,7 @@ I'll cover everything below, so let's get into it.
 # What's New
 
 ## Event Calendar
+
 <figure>
     <a href="/assets/img/blog/2025-12-03-databruce-update/calendar.png"><img src="/assets/img/blog/2025-12-03-databruce-update/calendar.png"></a>
     <figcaption>September 1978, his best month.</figcaption>
@@ -35,15 +36,19 @@ One thing on my to-do list has been a calendar to show events by month/year. It 
 The calendar displays both events, as well as event runs (consecutive events by same band at same venue).
 
 # Changes
+
 ## Design
+
 First and foremost, you'll notice a pretty big change when visiting the site. The font has been changed to Google Sans Flex, which I've found looks better at small scales than the previous one.
 
 Also, I've removed the "Synthwave" theme as I didn't really like it and thought the colors were a bit too garish, though I suppose that was the point. It was primarily just a test, and I might look into adding themes again at some point. As of now, only "Light" and "Dark" are available, with both having also received some slight tweaks to the colors.
 
 ## Tables
-Changed how tables are rendered, utilizing server side rendering instead of the default. Meaning sorting/searching/filtering is handled differently. Which means that tables load faster. 
+
+Changed how tables are rendered, utilizing server side rendering instead of the default. Meaning sorting/searching/filtering is handled differently. Which means that tables load faster.
 
 ## Searching
+
 The search bar also now accepts regular expressions (or regex). Regex is a way of searching text by matching patterns, as compared to "standard" searching, which is more limited. As a note, the regex search is case insensitive. So capitalization doesn't matter.
 
 An example can be seen below, and more on regex can be found [here](https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/).
@@ -70,15 +75,19 @@ Tables are also now mobile friendly, collapsing the rows on small screens by def
 </figure>
 
 # Page Specific Changes
+
 Below are some changes that affect certain pages, some more extensive than others
 
 ## Advanced Search
+
 The form has been updated, and now loads a bit faster. The searching itself is also a tad faster, but that difference is less noticeable.
 
 ## Setlist Note Search
+
 This search has been expanded and now searches all notes. You'd think this was the case before, but you'd be wrong.
 
 ## Event Detail
+
 The page in general has seen a number of changes in both layout and design.
 
 <figure class="half">
@@ -98,9 +107,11 @@ Badges are now used to highlight songs with certain attributes. So far these inc
 The setlist tables also now show the notes as part of the actual table rows. I originally had these hidden by a button, but those didn't adapt well to small screens. Likely due to the issue above with the table going off screen, but it's anyone's guess.
 
 ## Release Detail
+
 Tracks are now grouped by disc if present. Currently this is just Tracks 2 and the recent Nebraska Expanded release, though more will get this treatment soon.
 
 # Database Changes
+
 These have less to do with the site itself and more with the database.
 
 Bruce is now listed as part of his many early "pre-E Street" bands. Including: Castiles, Earth, Child, Dr Zoom, BSB, Friendly Enemies, and Sundance Blues Band. Originally he wasn't listed as part of them but rather on his own, which is incorrect. It is correct however for bands which are credited as "Bruce AND band".
@@ -113,6 +124,7 @@ Some new previously unknown events have been added for 1966 and 1967. Recently, 
 </figure>
 
 # Conclusion
+
 That should just about wrap it up for this post. I aim to do one of these a month, unless there really aren't many changes to cover. If anyone has any questions/comments/suggestions/etc., feel free to reach out. Either by the contact form, or DM, either works.
 
 Databruce can be found by going to the link shown in the header of this post, or [here](https://databruce.com) if you don't feel like scrolling.
