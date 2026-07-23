@@ -251,7 +251,7 @@ For all these reasons, I felt compelled to do something. I've seen a number of s
 
 I say this in nearly every long-form writeup I've done, but I didn't intend for this to be as long as it is. This post alone absolutely dwarfs basically anything else I've ever written. And there were many parts I cut out or trimmed which could've made it even longer. But, I felt it was worth it to tell this story right and to the best of my ability.
 
-I want to thank Ken Rosen for being supportive of my efforts. When I first wrote to him in December 2025, a part of me was expecting him to tell me to stop. To shut my work down before it even got started. Thankfully he didn't, which I am thankful for. He was accepting of the idea, even a bit baffled that anyone would go through the effort. I am also thankful to Ken for allowing me to address the readers of *E Street Shuffle* as part of the final new post on the site. My words are now forever included as a small part of the legacy of *E Street Shuffle*, which probably baffles me more than my work baffled Ken.
+I want to thank Ken Rosen for being supportive of my efforts. When I first wrote to him in December 2025, a part of me was expecting him to tell me to stop. To shut my work down before it even got started. Luckily he didn't, which I am thankful for. He was accepting of the idea, even a bit baffled that anyone would go through the effort. I am also thankful to Ken for allowing me to address the readers of *E Street Shuffle* as part of the final new post on the site. My words are now forever included as a small part of the legacy of *E Street Shuffle*, which probably baffles me more than my work baffled Ken.
 
 ---
 
@@ -261,5 +261,5 @@ The archive was started in November 2025. As I write this, it is May 29th 2026. 
 
 God it's such a relief to finally get this project off my mind.
 
-Thanks for Reading!
+Thanks for Reading!<br>
 Brian (May 29th, 2026)
