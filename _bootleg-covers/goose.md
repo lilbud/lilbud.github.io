@@ -8,6 +8,8 @@ header:
   overlay_image: /assets/img/graphics/bootleg-covers/artists/goose.jpg
   teaser: /assets/img/graphics/bootleg-covers/artists/goose.jpg
 years:
+ - 2019
+ - 2020
  - 2024
  - 2025
  - 2026
