@@ -1,6 +1,6 @@
 {
-  "sha": "cbf5a2dd85619a9cc2b467c0f387353f81260895",
-  "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/cbf5a2dd85619a9cc2b467c0f387353f81260895",
+  "sha": "713676444bc74910f5163eede8ffeb0ad43eb003",
+  "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/713676444bc74910f5163eede8ffeb0ad43eb003",
   "tree": [
     {
       "path": ".github",
@@ -6327,15 +6327,15 @@
       "path": "goose",
       "mode": "040000",
       "type": "tree",
-      "sha": "006d0d2839239c361af2ae33610f04e37c18fbab",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/006d0d2839239c361af2ae33610f04e37c18fbab"
+      "sha": "9a4dbe8cf6bbb35f7bbc3b66dea5f3a3ecc56694",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/9a4dbe8cf6bbb35f7bbc3b66dea5f3a3ecc56694"
     },
     {
       "path": "goose/covers",
       "mode": "040000",
       "type": "tree",
-      "sha": "7d1c716c24fc11f92db994518921b62f376a9ea8",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/7d1c716c24fc11f92db994518921b62f376a9ea8"
+      "sha": "168506df2d7f990d680e482478486d2052dbc57a",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/168506df2d7f990d680e482478486d2052dbc57a"
     },
     {
       "path": "goose/covers/2019",
@@ -6609,8 +6609,8 @@
       "path": "goose/covers/2026",
       "mode": "040000",
       "type": "tree",
-      "sha": "feb7c8d5f90b5df21cd15b03bbaf1441dcd3812e",
-      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/feb7c8d5f90b5df21cd15b03bbaf1441dcd3812e"
+      "sha": "a0e8661b7c083ebf39c6fc66010268e81249003d",
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/trees/a0e8661b7c083ebf39c6fc66010268e81249003d"
     },
     {
       "path": "goose/covers/2026/2026-06-13.jpg",
@@ -6851,6 +6851,14 @@
       "sha": "e33d5a14d04b2eb0c887f62268a416e5f822ce08",
       "size": 443249,
       "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/e33d5a14d04b2eb0c887f62268a416e5f822ce08"
+    },
+    {
+      "path": "goose/covers/2026/2026-09-02.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79ff8c3bb76cd485126fc8ecdebcc83d06ad9503",
+      "size": 712999,
+      "url": "https://api.github.com/repos/lilbud/bootleg_covers/git/blobs/79ff8c3bb76cd485126fc8ecdebcc83d06ad9503"
     },
     {
       "path": "mccartney",
