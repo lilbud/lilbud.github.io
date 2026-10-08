@@ -8,8 +8,6 @@ header:
       url: "https://archive.org/details/radionowhere"
 ---
 
-# "Radio Nowhere is Complete"
-
 When I started this insane effort on April 28, 2024, I never thought I'd be typing these words. Frankly, I didn't foresee the scale this project would grow to, and perhaps might not have even started had I known.
 
 The project was started with the loose goal of taking the collection I built over the past six years and uploading it to Archive.org. My target was to compile something for Bruce similar to what has been done by the Grateful Dead community over the decades. Nearly all of the 2000+ shows they've performed are available for listening and downloading on Archive.org.
@@ -19,6 +17,7 @@ I had always hoped that someone would do the same for Bruce, maybe one of the bi
 Over the past two and a half years, I've managed to source at least one bootleg of every show Bruce has performed (well those in circulation and not hoarded anyway, although if this applies to something you have, my DMs are open).
 
 The goal of this wasn't *just* to build a massive collection, but to do so and create it as a publicly available resource. One that attempted to do for Bruce what the Dead community has managed to do.
+
 # The Final Shows
 
 The past few months, with a ton of shows sitting in my "to tag/upload" queue, I resolved to get this project finished. The issue with getting a ton of shows in bulk is then having to go through and tag/upload them.
@@ -30,6 +29,7 @@ I checked all the places I could, reached out to those who helped out a ton agai
 To my surprise, Bosstrade responded. He is a prolific collector/sharer of Bruce bootlegs, and the tapes he's had a hand in make up well over a tenth of the Radio Nowhere archive. He had them, and would send them over. I shot him an email, and waited.
 
 This morning, my inbox lit up, and I had the final missing shows. A two-and-a-half year quest was finally finished.
+
 # A Final Tally
 
 Radio Nowhere (at time of writing) contains 2,272 bootlegs. The main goal was "one bootleg from every show that circulates", which has been met. That goal was chosen because most people only need one copy of each show, and many shows only have one recording anyway. Some shows are represented a few times because I already had multiple bootlegs for it (typically an audience tape and a IEM/SBD/FM recording). There's far too many bootlegs out there for me to get *every* source of *every* show. Simply having each show being represented once is enough.
