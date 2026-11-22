@@ -2,6 +2,7 @@
 title: "Databruce"
 tags: projects programming bruce
 toc: false
+featured: true
 classes: wide
 excerpt: "A Database of Bruce Springsteens Performing Career"
 header:
@@ -12,6 +13,7 @@ header:
 ---
 
 **Update: June 2026**
+
 Since writing this post, the website version of the site has been completed and can be found [here](https://www.databruce.com/). Info about the site can be found at the sites "about" page. The original version of this post from March 2025 has been left untouched and is below.
 
 # Intro

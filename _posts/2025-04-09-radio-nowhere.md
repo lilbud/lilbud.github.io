@@ -2,6 +2,7 @@
 title: "Announcing Radio Nowhere"
 tags: projects music
 excerpt: "A publicly available archive of Bruce Springsteen's concert recordings on archive.org"
+featured: true
 header:
   actions:
     - label: "Archive.org Collection"

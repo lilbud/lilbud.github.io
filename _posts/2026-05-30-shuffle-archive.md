@@ -2,6 +2,7 @@
 title: "E Street Shuffle Archive Site Now Live"
 tags: projects estreetshuffle hugo archives
 excerpt: "Everybody Form a Line"
+featured: true
 header:
   overlay_image: /assets/img/blog/2026-05-30-shuffle-archive/header.jpg
   actions:
